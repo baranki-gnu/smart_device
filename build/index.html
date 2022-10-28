@@ -14,23 +14,39 @@
   </head>
   <body>
     <div class="wrapper">
+      <!--Header-->
       <header class="page__header main-header">
-        <div class="container">
-          <nav class="main-header__navigation navigation">
-            <a class="navigatioin__logo-link logo-link"></a>
-            <ul class="navigation__list">
-              <li class="navigatioin__item">
-                <a class="navigation-link"></a>
-              </li>
-              <li class="navigatioin__item">
-                <a class="navigation-link"></a>
-              </li>
-              <li class="navigatioin__item">
-                <a class="navigation-link"></a>
-              </li>
-            </ul>
+
+          <!--Navigation-->
+          <nav class="main-header__navigation navigation container">
+            <a class="navigation__logo-link logo-link">
+              <img src="img/svg/logo-smart-device.svg" width="215" height="55" alt="Smart Device.">
+            </a>
+            <div class="navigation__user-nav user-navigation">
+              <ul class="user-navigation__list">
+                <li class="user-navigation__item user-navigation__item--mail">
+                  <a href="#">
+                    <svg focusable="false" width="20" height="20" aria-label="Напишите нам">
+                      <use xlink:href="img/sprite/sprite.svg#mail"></use>
+                    </svg>
+                    <span>info@sd.ru</span>
+                  </a>
+                </li>
+                <li class="user-navigation__item user-navigation__item--telephone">
+                  <a href="tel:+74950005252">
+                    <svg focusable="false" width="20" height="20" aria-label="Напишите нам">
+                      <use xlink:href="img/sprite/sprite.svg#phone"></use>
+                    </svg>
+                    <span>+7 (495) 000 52 52</span>
+                  </a>
+                </li>
+                <li class="user-navigation__item user-navigation__item--callback">
+                  <a href="#">Заказать звонок</a>
+                </li>
+              </ul>
+            </div>
           </nav>
-        </div>
+
       </header>
       <main class="page__main main-content">
         <h1 class="visually-hidden">Smart Device: gроизводство и монтаж печатных плат</h1>
@@ -106,11 +122,22 @@
         </section>
         <section class="main-content__feedback feedback">
           <h2 class="feedback__title">Остались вопросы? Задайте их нам!</h2>
-          <form class="feedback__form">
-            <input type="name" placeholder="Имя">
-            <input type="tel" placeholder="Телефон">
-            <textarea placeholder="Ваш вопрос"></textarea>
-            <input type="checkbox">
+          <form class="feedback__form form">
+            <div class="form__name-field">
+              <input type="name" placeholder="Имя">
+            </div>
+            <div class="form__telephone-field">
+              <input type="tel" placeholder="Телефон">
+            </div>
+            <div class="form__question-textarea">
+              <textarea placeholder="Ваш вопрос"></textarea>
+            </div>
+            <div class="form__consent-checkbox">
+              <label>
+                <input type="checkbox" name="consent">
+                <span></span>
+            </label>
+            </div>
             <button type="submit">Задать вопрос</button>
           </form>
         </section>

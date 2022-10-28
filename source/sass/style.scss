@@ -23,11 +23,14 @@
 
 //Major Blocks
 
-@import "blocks/major-blocks/page.scss";
+@import "blocks/major-blocks/page";
+@import "blocks/major-blocks/header/main-header";
+@import "blocks/major-blocks/header/navigation";
+@import "blocks/major-blocks/header/user-navigation";
 
 //Medium Blocks
 
-@import "blocks/medium-blocks/get-consultation.scss";
+@import "blocks/medium-blocks/get-consultation";
 
 // ---------------------------------
 

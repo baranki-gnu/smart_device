@@ -407,7 +407,7 @@ template {
 }
 
 @font-face {
-  font-family: "PT Mono", sans-serif;
+  font-family: "PT Mono", monospace;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -777,6 +777,85 @@ button,
 
 .page body {
   color: #041827;
+}
+
+.page__header {
+  margin: 0;
+}
+
+.main-header {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "PT Mono", monospace, "Courier New";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(84.9%, #041827), to(rgba(4, 24, 39, 0)));
+  background: -o-linear-gradient(top, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
+  background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
+}
+
+.main-header .container {
+  min-width: 1024px;
+  max-width: 1222px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation__user-nav {
+  margin: 0 0 0 auto;
+}
+
+.navigation__logo-link {
+  width: 215px;
+  height: 55px;
+  display: inline-block;
+}
+
+.user-navigation__list {
+  min-width: 715px;
+  max-width: 815px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-navigation__item {
+  width: 225px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.user-navigation__item--callback {
+  width: 160px;
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.user-navigation__item a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f2f5f6;
+  text-decoration: none;
+  text-align: left;
+}
+
+.user-navigation__item--callback a {
+  padding: 10px 15px;
+  border: 1px solid #f2f5f6;
+  border-radius: 3px;
 }
 
 .get-consultation {

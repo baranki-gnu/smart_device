@@ -1,0 +1,33 @@
+.user-navigation__list {
+  min-width: 715px;
+  max-width: 815px;
+  display: flex;
+}
+
+.user-navigation__item {
+  width: 225px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.user-navigation__item--callback {
+  width: 160px;
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.user-navigation__item a {
+  width: 100%;
+  display: flex;
+  color: $color-alice-blue;
+  text-decoration: none;
+  text-align: left;
+}
+
+.user-navigation__item--callback a {
+  padding: 10px 15px;
+  border: 1px solid $color-alice-blue;
+  border-radius: 3px;
+}
