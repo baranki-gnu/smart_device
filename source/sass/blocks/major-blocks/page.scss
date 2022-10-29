@@ -1,5 +1,8 @@
 .page body {
+  font-family: $family-mono;
+  font-size: 16px;
   color: $color-black-pearl;
+  background-color: $color-alice-blue-background;
 }
 
 .page__header {

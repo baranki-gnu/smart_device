@@ -27,10 +27,25 @@
 @import "blocks/major-blocks/header/main-header";
 @import "blocks/major-blocks/header/navigation";
 @import "blocks/major-blocks/header/user-navigation";
+@import "blocks/major-blocks/main/main-content";
+@import "blocks/major-blocks/footer/main-footer";
+@import "blocks/major-blocks/footer/social-media";
+@import "blocks/major-blocks/footer/site-tree";
+@import "blocks/major-blocks/footer/contacts";
 
 //Medium Blocks
 
 @import "blocks/medium-blocks/get-consultation";
+@import "blocks/medium-blocks/advantages";
+@import "blocks/medium-blocks/company-info";
+@import "blocks/medium-blocks/production-services";
+@import "blocks/medium-blocks/feedback";
+@import "blocks/medium-blocks/form";
+
+//Minor Blocks
+
+@import "blocks/minor-blocks/title";
+@import "blocks/minor-blocks/button";
 
 // ---------------------------------
 

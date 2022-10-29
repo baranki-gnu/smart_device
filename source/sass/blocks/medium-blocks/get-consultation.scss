@@ -1,4 +1,49 @@
 .get-consultation {
-  background-color: tomato;
-  z-index: 2;
+  width: 100%;
+  min-height: 800px;
+  height: min-content;
+  margin-top: -40px;
+  display: flex;
+  //background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
+  //url("../../../img/background/main-background-desktop@1x.jpg") contain no-repeat;
+  background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+  url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+  //z-index: 2;
+}
+
+.get-consultation__wrap {
+  margin-top: 225px;
+}
+
+.get-consultation__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 80px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: $color-alice-blue;
+  text-transform: uppercase;
+}
+
+.get-consultation__description {
+  max-width: 685px;
+  margin: 0;
+  margin-bottom: 40px;
+  display: block;
+  color: $color-alice-blue;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+
+.get-consultation__link {
+  padding: 15px 25px;
+  color: $color-alice-blue;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background-color: $color-deep-sky-blue;
 }

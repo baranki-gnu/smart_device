@@ -1,0 +1,106 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form input {
+  width: 275px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: $family-mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $color-default-white;
+  background-color: rgba(4, 20, 39, 0.15);
+  border-width: 0;
+  border-radius: 3px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-family: $family-mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $color-default-white;
+}
+
+.form__name-field {
+  margin-right: 30px;
+}
+
+.form button {
+  margin-right: 50px;
+  padding: 15px 50px;
+  font-family: $family-roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: $color-default-white;
+  text-transform: uppercase;
+  background-color: $color-black-pearl-button;
+  border-width: 0;
+  border-radius: 3px;
+  order: 1;
+}
+
+.form__question-textarea {
+  margin-bottom: 35px;
+}
+
+.form textarea {
+  width: 580px;
+  min-height: 155px;
+  padding: 25px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $color-default-white;
+  background-color: rgba(4, 20, 39, 0.15);
+  border-width: 0;
+  border-radius: 3px;
+}
+
+.form__consent-checkbox {
+  width: 260px;
+  padding-top: 15px;
+  order: 2;
+  position: relative;
+}
+
+.form__consent-checkbox input {
+  display: none;
+  margin: 0;
+}
+
+.form__consent-checkbox b {
+  margin-left: 25px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $color-default-white;
+  text-align: left;
+}
+
+.form__consent-checkbox span {
+  width: 15px;
+  height: 15px;
+  top: 22px;
+  left: 0;
+  border: 1px solid $color-default-white;
+  border-radius: 2px;
+  content: "";
+  position: absolute;
+  z-index: 3;
+}
+
+
+.form__consent-checkbox input:checked + span {
+  background-image: url("../../../img/svg/tick.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+

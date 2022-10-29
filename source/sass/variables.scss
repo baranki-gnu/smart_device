@@ -19,6 +19,8 @@ $color-deep-sky-blue-bg:            #00B3ff;
 $color-black-pearl:                 #041827;
 $color-black-pearl-button:          #041427;
 $color-alice-blue:                  #f2f5f6;
+$color-alice-blue-background:       #f8fdff;
+$color-whisper:                     #ebebeb;
 
 
 // Gradient
@@ -27,7 +29,8 @@ $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0
 
 // Typography
 // ---------------------------------
-
+$family-mono: "PT Mono", monospace, "Courier New";
+$family-roboto: "Roboto Condensed", sans-serif, Arial;
 // переменная используемая в html для подключения скейлинга
 $fz-default:                        16px;
 

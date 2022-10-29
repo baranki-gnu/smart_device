@@ -12,7 +12,7 @@
 
 .user-navigation__item--callback {
   width: 160px;
-  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-family: $family-roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -26,8 +26,14 @@
   text-align: left;
 }
 
-.user-navigation__item--callback a {
+.user-navigation__item--callback button {
   padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: $color-alice-blue;
   border: 1px solid $color-alice-blue;
   border-radius: 3px;
+  background-color: transparent;
 }

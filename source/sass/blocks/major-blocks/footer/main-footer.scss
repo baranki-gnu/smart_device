@@ -1,0 +1,16 @@
+.main-footer {
+  padding-top: 50px;
+  padding-bottom: 55px;
+  color: $color-default-white;
+  background-color: $color-black-pearl;
+}
+
+.main-footer__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer__logo {
+  display: block;
+  margin-bottom: 30px;
+}
