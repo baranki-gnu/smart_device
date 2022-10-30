@@ -27,10 +27,30 @@
   margin-right: 30px;
 }
 
-.advantages__item--emphasized {
+.advantages__item svg {
+  fill: $color-deep-sky-blue;
+}
+
+.advantages__item:hover {
   padding-left: 45px;
   color: $color-alice-blue;
   background-color: $color-deep-sky-blue;
   border-left: none;
   box-shadow: none;
+}
+
+.advantages__item:hover svg {
+  fill: $color-alice-blue;
+}
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .advantages {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .advantages__item {
+    min-width: 320px;
+    max-width: 461px;
+  }
 }

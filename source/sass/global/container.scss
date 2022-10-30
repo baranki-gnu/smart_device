@@ -17,3 +17,10 @@
     padding: 0 16px;
   }*/
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .container {
+    max-width: 1023px;
+    min-width: 770px;
+  }
+}

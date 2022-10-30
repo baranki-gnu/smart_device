@@ -4,7 +4,6 @@
   background: url("../../../img/background/paper_airplane_desktop@1x.png") 20% 50%/510px 285px no-repeat,
   url("../../../img/svg/polygon-background.svg") top left/contain no-repeat,
   linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
-
 }
 
 .feedback__inner-wrap {
@@ -28,4 +27,15 @@
   font-weight: 400;
   line-height: 22px;
   color: $color-default-white;
+}
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .feedback {
+    background-image: none;
+    background-color: $color-deep-sky-blue-bg;
+  }
+
+  .feedback__inner-wrap {
+    margin: 0 auto;
+  }
 }

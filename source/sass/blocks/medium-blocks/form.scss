@@ -97,10 +97,8 @@
   z-index: 3;
 }
 
-
 .form__consent-checkbox input:checked + span {
   background-image: url("../../../img/svg/tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-

@@ -37,3 +37,22 @@
   border-radius: 3px;
   background-color: transparent;
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .user-navigation__list {
+    min-width: 100px;
+    max-width: 400px;
+  }
+
+  .user-navigation__item {
+    width: min-content;
+  }
+
+  .user-navigation__link span {
+    display: none;
+  }
+
+  .user-navigation__item--callback {
+    display: none;
+  }
+}

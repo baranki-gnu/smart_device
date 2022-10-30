@@ -1,4 +1,5 @@
 .company-info__title {
+  margin-bottom: 15px;
   padding-left: 250px;
   font-size: 36px;
   font-weight: 400;
@@ -35,4 +36,29 @@
 
 .company-info__button-less {
   display: none;
+}
+
+.company-info__extra-text {
+  display: none;
+}
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .company-info__text {
+    min-width: 493px;
+    max-width: 743px;
+  }
+
+  .company-info__title {
+    padding-left: 180px;
+    line-height: 51px;
+  }
+
+  .company-info__text {
+    padding-left: 180px;
+  }
+
+  .company-info__button {
+    margin-bottom: 80px;
+    margin-left: 30px;
+  }
 }
