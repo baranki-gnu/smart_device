@@ -1,0 +1,22 @@
+.toggle-button {
+  display: none;
+}
+
+@media (max-width: ($vp-768 - 1px)) {
+  .toggle-button {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
+  }
+
+  .toggle-button--closed {
+    background: url("../../../img/svg/minus.svg") center/contain no-repeat;
+  }
+
+  .toggle-button--opened {
+    background: url("../../../img/svg/plus.svg") center/contain no-repeat;
+  }
+}

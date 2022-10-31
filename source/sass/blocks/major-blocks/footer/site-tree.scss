@@ -30,3 +30,12 @@
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .site-tree__list {
+    width: 220px;
+    height: min-content;
+    min-width: 220px;
+  }
+
+}

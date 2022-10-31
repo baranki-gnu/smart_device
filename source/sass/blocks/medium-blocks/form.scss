@@ -8,6 +8,7 @@
   height: 50px;
   margin-bottom: 20px;
   padding: 15px;
+  box-sizing: border-box;
   font-family: $family-mono;
   font-size: 16px;
   font-weight: 400;
@@ -101,4 +102,28 @@
   background-image: url("../../../img/svg/tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .form__name-field {
+    width: calc((100% - 30px)/2);
+  }
+
+  .form__telephone-field {
+    width: calc((100% - 30px)/2);
+  }
+
+  .form input {
+    width: 100%;
+    min-width: 320px;
+  }
+
+  .form__question-textarea {
+    width: 100%;
+  }
+
+  .form textarea {
+    width: 100%;
+    min-width: 670px;
+  }
 }

@@ -24,3 +24,10 @@
     min-width: 770px;
   }
 }
+
+@media (max-width: ($vp-768 - 1px)) {
+  .container {
+    max-width: 767px;
+    min-width: 320px;
+  }
+}
