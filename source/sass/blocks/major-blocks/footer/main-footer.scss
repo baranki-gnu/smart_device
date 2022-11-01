@@ -16,6 +16,10 @@
 }
 
 @media (max-width: ($vp-1024 - 1px)) {
+  .main-footer {
+    padding-bottom: 65px;
+  }
+
   .main-footer__logo {
     margin-bottom: 35px;
   }
@@ -49,5 +53,34 @@
 }
 
 @media (max-width: ($vp-768 - 1px)) {
+  .main-footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
 
+  .main-footer__wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-footer__inner-wrap {
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+  }
+
+  .main-footer__logo {
+    margin: 0 auto 15px auto;
+  }
+
+  .main-footer__social {
+    margin: 0 auto 25px auto;
+  }
+
+  .main-footer__contacts {
+    width: 100%;
+    max-width: 717px;
+    margin: 0 auto;
+  }
 }

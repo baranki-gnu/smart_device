@@ -18,3 +18,50 @@
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
 }
+
+
+@media (max-width: ($vp-768 - 1px)) {
+  .contacts {
+    position: relative;
+  }
+
+  .contacts::before {
+    width: calc(100% + 50px);
+    height: 1px;
+    top: 0;
+    left: -25px;
+    background-color: rgba(248, 253, 255, 0.7);
+    content: "";
+    position: absolute;
+  }
+
+  .contacts::after {
+    width: calc(100% + 50px);
+    height: 1px;
+    bottom: 0;
+    left: -25px;
+    background-color: rgba(248, 253, 255, 0.7);
+    content: "";
+    position: absolute;
+  }
+
+  .contacts__title {
+    margin: 0;
+  }
+
+  .contacts__list--closed {
+    display: none;
+  }
+
+  .contacts__address--closed {
+    display: none;
+  }
+
+  .contacts__list--opened {
+    display: block;
+  }
+
+  .contacts__address--opened {
+    display: inline;
+  }
+}

@@ -37,5 +37,32 @@
     height: min-content;
     min-width: 220px;
   }
+}
 
+@media (max-width: ($vp-768 - 1px)) {
+  .site-tree {
+    position: relative;
+  }
+
+  .site-tree::before {
+    width: calc(100% + 50px);
+    height: 1px;
+    top: 0;
+    left: -25px;
+    background-color: rgba(248, 253, 255, 0.7);
+    content: "";
+    position: absolute;
+  }
+
+  .site-tree__title {
+    margin: 0;
+  }
+
+  .site-tree__list--closed {
+    display: none;
+  }
+
+  .site-tree__list--opened {
+    display: flex;
+  }
 }

@@ -8,3 +8,9 @@
 .page__header {
   margin: 0;
 }
+
+@media (max-width: ($vp-768 - 1px)) {
+  .page body {
+    min-width: 320px;
+  }
+}

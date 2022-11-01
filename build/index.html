@@ -55,7 +55,8 @@
               производство и монтаж, поставка комплектующих, блоков и модулей
             </p>
             <a class="get-consultation__link button">
-              Получить бесплатную консультацию
+              <span class="get-consultation__link-text-long">Получить бесплатную консультацию</span>
+              <span class="get-consultation__link-text-short">Бесплатная консультация</span>
             </a>
           </div>
         </section>
@@ -131,6 +132,7 @@
         <section class="main-content__goods-services production-services">
           <div class="production-services__wrap container">
             <h2 class="production-services__title title">Smart Device предлагает следующие товары и услуги</h2>
+            <h3 class="production-services__subtitle title">Товары и услуги Smart Device</h3>
             <ul class="production-services__list">
               <li class="production-services__item">
                 <a class="production-services__item-link" href="#">
@@ -214,11 +216,11 @@
             </section>
           </div>
           <section class="main-footer__site-map site-tree">
-            <div class="site-tree__title-toggle-wrap">
-              <h2 class="site-tree__title title title--footer">Разделы сайта</h2>
-              <button class="toggle-button toggle-button--closed"></button><!--Класс для открытого меню toggle-button--opened-->
+            <div class="site-tree__title-toggle-wrap toggle">
+              <h2 class="site-tree__title toggle__title title title--footer">Разделы сайта</h2>
+              <button class="toggle__button toggle__button--closed"></button><!--Класс для открытого меню toggle__button--opened-->
             </div>
-            <ul class="site-tree__list">
+            <ul class="site-tree__list site-tree__list--closed"><!--Класс для открытия/закрятия меню site-tree__list--opened и site-tree__list--closed-->
               <li class="site-tree__item">
                 <a class="site-tree__item-link" href="#">О Компании</a>
               </li>
@@ -243,12 +245,12 @@
             </ul>
           </section>
           <section class="main-footer__contacts contacts">
-            <div class="site-tree__title-toggle-wrap">
-              <h2 class="contacts__title title title--footer">Наш офис</h2>
-              <button class="toggle-button toggle-button--closed"></button><!--Класс для открытого меню toggle-button--opened-->
+            <div class="site-tree__title-toggle-wrap toggle">
+              <h2 class="contacts__title toggle__title title title--footer">Наш офис</h2>
+              <button class="toggle__button toggle__button--closed"></button><!--Класс для открытого меню toggle__button--opened-->
             </div>
-            <span class="contacts__address">г. Мытищи, Олимпийский проспект, д.10</span>
-            <ul class="contacts__list">
+            <span class="contacts__address contacts__address--closed">г. Мытищи, Олимпийский проспект, д.10</span><!--Класс для открытия/закрытия меню contacts__address--opened и contacts__address--closed-->
+            <ul class="contacts__list contacts__list--closed"><!--Класс для открытия/закрытия меню contacts__list--opened и contacts__list--closed-->
               <li class="contacts__item">
                 <a class="contacts__telephone-link">+7 (495) 589-40-50</a>
               </li>

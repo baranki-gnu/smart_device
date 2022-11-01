@@ -9,6 +9,7 @@
 }
 
 .get-consultation__wrap {
+  width: 100%;
   margin-top: 305px;
 }
 
@@ -45,6 +46,10 @@
   background-color: $color-deep-sky-blue;
 }
 
+.get-consultation__link-text-short {
+  display: none;
+}
+
 @media (max-width: ($vp-1024 - 1px)) {
   .get-consultation {
     min-height: 640px;
@@ -67,4 +72,38 @@
     max-width: 923px;
     margin-bottom: 50px;
   }
+}
+
+@media (max-width: ($vp-768 - 1px)) {
+  .get-consultation {
+    min-height: 560px;
+  }
+
+  .get-consultation__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .get-consultation__description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .get-consultation__link-text-short {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .get-consultation__link-text-long {
+    display: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+  }
+
+  .get-consultation__link {
+    width: 100%;
+  }
+
 }

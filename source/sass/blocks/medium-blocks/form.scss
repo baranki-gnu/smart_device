@@ -127,3 +127,40 @@
     min-width: 670px;
   }
 }
+
+@media (max-width: ($vp-768 - 1px)) {
+  .form {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .form__name-field {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .form__telephone-field {
+    width: 100%;
+  }
+
+  .form button {
+    margin-right: 0;
+  }
+
+  .form__question-textarea {
+    margin-bottom: 30px;
+  }
+
+  .form textarea {
+    min-width: 270px;
+  }
+
+  .form__consent-checkbox {
+    padding: 25px 5px 0 5px;
+  }
+
+  .form__consent-checkbox span {
+    top: 32px;
+    left: 5px;
+  }
+}

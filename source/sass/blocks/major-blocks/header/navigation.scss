@@ -11,3 +11,10 @@
   height: 55px;
   display: inline-block;
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .navigation__user-nav {
+    padding-right: 10px;
+  }
+
+}

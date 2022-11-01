@@ -31,6 +31,8 @@
 
 @media (max-width: ($vp-1024 - 1px)) {
   .feedback {
+    padding-top: 50px;
+    padding-bottom: 125px;
     background-image: none;
     background-color: $color-deep-sky-blue-bg;
   }
@@ -38,5 +40,11 @@
   .feedback__inner-wrap {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: ($vp-768 - 1px)) {
+  .feedback {
+    padding-bottom: 90px;
   }
 }
