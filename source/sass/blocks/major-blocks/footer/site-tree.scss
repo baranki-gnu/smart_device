@@ -58,11 +58,17 @@
     margin: 0;
   }
 
-  .site-tree__list--closed {
+  .site-tree.is-closed ul {
     display: none;
   }
 
-  .site-tree__list--opened {
+  .site-tree.is-open ul {
     display: flex;
+    margin-bottom: 10px;
+  }
+
+  .site-tree.nojs ul {
+    display: flex;
+    margin-bottom: 10px;
   }
 }

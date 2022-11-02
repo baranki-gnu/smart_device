@@ -968,7 +968,19 @@ button,
   width: 345px;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   list-style-type: none;
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+  display: block;
 }
 
 .contacts__item a,
@@ -977,6 +989,12 @@ button,
   font-weight: 400;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.contacts span {
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .get-consultation {
@@ -1179,13 +1197,14 @@ button,
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
-  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
-  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+  background-color: #041827;
 }
 
 .production-services__item-title {
+  max-width: 300px;
   padding: 50px 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -1202,16 +1221,25 @@ button,
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  z-index: 5;
 }
 
-.production-services__item:not(:last-child)::after {
-  width: 85px;
-  height: 650px;
-  top: 0;
-  right: -85px;
-  background-color: #041827;
-  content: "";
-  position: absolute;
+.production-services__list > li {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 16% 20%/auto 100% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 16% 20%/auto 100% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 16% 20%/auto 100% no-repeat;
+}
+
+.production-services__list li:nth-child(2n) {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 20%/auto 100% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 20%/auto 100% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 20%/auto 100% no-repeat;
+}
+
+.production-services__list li:nth-child(3n) {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 77% 20%/auto 100% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 77% 20%/auto 100% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 77% 20%/auto 100% no-repeat;
 }
 
 .production-services__item-link {
@@ -1650,6 +1678,9 @@ button,
   }
 
   .production-services__list {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -1661,11 +1692,27 @@ button,
     height: 250px;
   }
 
-  .production-services__item:not(:last-child)::after {
-    width: 100%;
-    height: 30px;
-    top: 100%;
-    right: 0;
+  .production-services__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .production-services__list > li {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 24% 100%/auto 250% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 24% 100%/auto 250% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 24% 100%/auto 250% no-repeat;
+  }
+
+  .production-services__list li:nth-child(2n) {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 80% 50%/auto 250% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 80% 50%/auto 250% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 80% 50%/auto 250% no-repeat;
+  }
+
+  .production-services__list li:nth-child(3n) {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 20% 65%/auto 250% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 20% 65%/auto 250% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 20% 65%/auto 250% no-repeat;
   }
 
   .feedback {
@@ -1762,6 +1809,7 @@ button,
 
   .main-footer__contacts {
     width: 100%;
+    min-width: 270px;
     max-width: 717px;
     margin: 0 auto;
   }
@@ -1784,14 +1832,22 @@ button,
     margin: 0;
   }
 
-  .site-tree__list--closed {
+  .site-tree.is-closed ul {
     display: none;
   }
 
-  .site-tree__list--opened {
+  .site-tree.is-open ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 10px;
+  }
+
+  .site-tree.nojs ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
   }
 
   .contacts {
@@ -1822,20 +1878,31 @@ button,
     margin: 0;
   }
 
-  .contacts__list--closed {
+  .contacts.is-closed ul,
+  .contacts.is-closed span {
     display: none;
   }
 
-  .contacts__address--closed {
-    display: none;
+  .contacts.is-open ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
   }
 
-  .contacts__list--opened {
-    display: block;
+  .contacts.is-open span {
+    display: inline-block;
   }
 
-  .contacts__address--opened {
-    display: inline;
+  .contacts.nojs ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .contacts.nojs span {
+    display: inline-block;
   }
 
   .get-consultation {
@@ -2004,11 +2071,11 @@ button,
     cursor: pointer;
   }
 
-  .toggle__button--closed {
+  .toggle__button.is-closed {
     background: url("../../../img/svg/plus.svg") center/contain no-repeat;
   }
 
-  .toggle__button--opened {
+  .toggle__button.is-open {
     background: url("../../../img/svg/minus.svg") center/contain no-repeat;
   }
 }

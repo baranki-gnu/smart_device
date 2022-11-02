@@ -20,11 +20,11 @@
     cursor: pointer;
   }
 
-  .toggle__button--closed {
+  .toggle__button.is-closed {
     background: url("../../../img/svg/plus.svg") center/contain no-repeat;
   }
 
-  .toggle__button--opened {
+  .toggle__button.is-open {
     background: url("../../../img/svg/minus.svg") center/contain no-repeat;
   }
 }

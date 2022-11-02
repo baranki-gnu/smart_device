@@ -1,5 +1,6 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
+import {toggleMenu, dataItems} from './utils/menu-toggle';
 
 // ---------------------------------
 
@@ -7,6 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Utils
   // ---------------------------------
+  toggleMenu(dataItems);
+
 
   iosVhFix();
 
