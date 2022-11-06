@@ -19,7 +19,10 @@
           <!--Navigation-->
           <nav class="main-header__navigation navigation container">
             <a class="navigation__logo-link logo-link">
-              <img src="img/svg/logo-smart-device.svg" width="215" height="55" alt="Smart Device.">
+              <picture>
+                <source media="(max-width: 768px)" srcset="img/svg/logo-smart-device-mobile.svg">
+                <img src="img/svg/logo-smart-device.svg" width="215" height="55" alt="Smart Device.">
+              </picture>
             </a>
             <div class="navigation__user-nav user-navigation">
               <ul class="user-navigation__list">
@@ -36,30 +39,33 @@
                     <svg focusable="false" width="20" height="20" aria-label="Напишите нам">
                       <use xlink:href="img/sprite/sprite.svg#phone"></use>
                     </svg>
-                    <span>+7 (495) 000 52 52</span>
+                    <span>+7&nbsp;(495)&nbsp;000&nbsp;52&nbsp;52</span>
                   </a>
                 </li>
                 <li class="user-navigation__item user-navigation__item--callback">
-                  <button class="user-navigation__item-button button">Заказать звонок</button>
+                  <button class="user-navigation__item-button button" data-open-modal>Заказать&nbsp;звонок</button>
                 </li>
               </ul>
             </div>
           </nav>
       </header>
+      <!--Main-->
       <main class="page__main main-content">
         <h1 class="visually-hidden">Smart Device: gроизводство и монтаж печатных плат</h1>
+        <!--Get Consultation-->
         <section class="main-content__consultation-block get-consultation">
           <div class="get-consultation__wrap container">
             <h2 class="get-consultation__title title">Печатные платы</h2>
             <p class="get-consultation__description">
               производство и монтаж, поставка комплектующих, блоков и модулей
             </p>
-            <a class="get-consultation__link button">
+            <a class="get-consultation__link button" data-form-scroll>
               <span class="get-consultation__link-text-long">Получить бесплатную консультацию</span>
               <span class="get-consultation__link-text-short">Бесплатная консультация</span>
             </a>
           </div>
         </section>
+        <!--Advantages-->
         <section class="main-content__strengths advantages">
           <div class="advantages__wrap container">
             <h2 class="visually-hidden">Преимущества работы со Smart Device</h2>
@@ -78,7 +84,7 @@
                 <svg focusable="false" width="35" height="35" aria-label="Напишите нам">
                   <use xlink:href="img/sprite/sprite.svg#vendors"></use>
                 </svg>
-                <h3 class="advantages__item-title">Крупные поставщики</h3>
+                <h3 class="advantages__item-title title">Крупные поставщики</h3>
                 <p class="advantages__item-text">
                   Нашими поставщиками являются такие крупные мировые компании как: OSRAM, CREE, HOLGLITRONIC, REFOND.
                   Сотрудничество с такими компаниями обеспечивает хорошее качество нашей продукции.
@@ -105,30 +111,34 @@
             </ul>
           </div>
         </section>
+        <!--Company Info-->
         <section class="main-content__about-company company-info">
           <div class="company-info__wrap container">
             <img class="company-info__image" src="img/background/2022-desktop@1x.png" width="150" height="320" alt="На острие технологий с 1997 по нынешний 2022 год.">
             <h2 class="company-info__title title">О компании</h2>
             <p class="company-info__text">
               Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997 года.
-              Выполняем срочные заказы и пилотные образцы до 10 дней. Наши поставщики - мировые производители электронных
+              Выполняем срочные заказы и пилотные образцы до 10 дней. </p>
+            <p class="company-info__text">
+              Наши поставщики - мировые производители электронных
               компонентов: OSRAM, CREE, HOLGLITRONIC, REFOND.
               Печатные платы и комплектующие Service Devices применяются на предприятиях Российских Железных Дорог (РЖД),
               РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники.
               Среди наших клиентов крупнейшие Производители светотехники России.
             </p>
-            <p class="company-info__extra-text">
+            <p class="company-info__extra-text is-closed nojs" data-extra-text><!--Классы для переключения видимости is-closed/is-open-->
               Smart Device - это команда профессионалов. Через нас прошло более 1 000 000 клиентов, 70% из которых продолжают
               сотрудничество по сей день. На данный момент насчитывается более 14 офисов по всей стране и 20 городов присутствия.
               Мы стремимся к постоянному развитию и повышению уровня качества продукции, производимой внутри компании. Использование
               инновационных технологий помогает экономить деньги и время наших клиентов
             </p>
-            <button class="company-info__button button">
+            <button class="company-info__button button show-more nojs" data-show-more-less><!--Классы для переключения состояния кнопки .show-more/show-less-->
               <span class="company-info__button-more">Подробнее</span>
               <span class="company-info__button-less">Скрыть</span>
             </button>
           </div>
         </section>
+        <!--Production and Services-->
         <section class="main-content__goods-services production-services">
           <div class="production-services__wrap container">
             <h2 class="production-services__title title">Smart Device предлагает следующие товары и услуги</h2>
@@ -158,40 +168,43 @@
             </ul>
           </div>
         </section>
-        <section class="main-content__feedback feedback">
+        <!--Feedback Form-->
+        <section class="main-content__feedback feedback" data-feedback-form>
           <div class="feedback__wrap container">
             <div class="feedback__inner-wrap">
               <h2 class="feedback__title title">Остались вопросы? Задайте их нам!</h2>
               <p class="feedback__promo-text">Мы проконсультируем Вас бесплатно</p>
-              <form class="feedback__form form">
-                <div class="form__name-field">
+              <form class="feedback__form form" action="https://echo.htmlacademy.ru" method="post">
+                <div class="form__name-field input-textarea-wrap">
                   <input type="name" placeholder="Имя" required>
                 </div>
-                <div class="form__telephone-field">
+                <div class="form__telephone-field input-textarea-wrap" data-telephone-input>
                   <input type="tel" placeholder="Телефон" required>
                 </div>
-                <div class="form__question-textarea">
+                <div class="form__question-textarea input-textarea-wrap">
                   <textarea placeholder="Ваш вопрос"></textarea>
                 </div>
-                <div class="form__consent-checkbox">
+                <div class="form__consent-checkbox consent-checkbox-wrap">
                   <label>
                     <input type="checkbox" name="consent" checked required>
                     <span></span>
                     <b>Я согласен на обработку  персональных данных</b>
                   </label>
                 </div>
-                <button type="submit">Задать вопрос</button>
+                <button type="submit" data-feedback-submit>Задать вопрос</button><!--Классы для активации/дизактивации кнопки .is-active/.is-inactive-->
               </form>
             </div>
           </div>
         </section>
       </main>
+      <!--Footer-->
       <footer class="page__footer main-footer">
         <div class="main-footer__wrap container">
           <div class="main-footer__inner-wrap">
             <a class="main-footer__logo logo-link">
               <img src="img/svg/logo-smart-device.svg" width="215" height="55" alt="Smart Device.">
             </a>
+            <!--Social Media-->
             <section class="main-footer__social social-media">
               <ul class="social-media__list">
                 <li class="social-media__item">
@@ -218,6 +231,7 @@
               </ul>
             </section>
           </div>
+          <!--WebSite Tree-->
           <section class="main-footer__site-map site-tree nojs is-closed" data-footer-item>
             <div class="site-tree__title-toggle-wrap toggle" >
               <h2 class="site-tree__title toggle__title title title--footer">Разделы сайта</h2>
@@ -247,12 +261,14 @@
               </li>
             </ul>
           </section>
+          <!--Contacts-->
           <section class="main-footer__contacts contacts nojs is-closed" data-footer-item>
-            <div class="site-tree__title-toggle-wrap toggle" >
+            <div class="contacts__title-toggle-wrap toggle" >
               <h2 class="contacts__title toggle__title title title--footer">Наш офис</h2>
               <button class="toggle__button is-closed" data-toggle></button>
             </div>
-            <span class="contacts__address contacts__address--closed">г. Мытищи, Олимпийский проспект, д.10</span>
+            <span class="contacts__address contacts__address--closed">г. Мытищи, Олимпийский проспект, <br>
+              д.10</span>
             <ul class="contacts__list contacts__list--closed">
               <li class="contacts__item">
                 <a class="contacts__telephone-link">+7 (495) 589-40-50</a>
@@ -269,31 +285,37 @@
       </footer>
     </div>
 
-    <!-- Модалки -->
-    <div class="modal modal--preload" data-modal="feedback">
-      <div class="modal__wrapper">
-        <div class="modal__overlay" data-close-modal></div>
-        <div class="modal__content">
-          <p class="modal__description">Обычная модалка</p>
-          <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-            <svg width="15" height="15">
-              <use xlink:href="img/sprite_auto.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal modal--preload modal--fit-content modal--no-scale" data-modal="success">
-      <div class="modal__wrapper">
-        <div class="modal__overlay" data-close-modal></div>
-        <div class="modal__content">
-          <p class="modal__description">Размер этой модалки зависит от ширины контента,<br> отключена анимация-скейл</p>
-          <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-            <svg width="15" height="15">
-              <use xlink:href="img/sprite_auto.svg#icon-close"></use>
-            </svg>
-          </button>
+    <!-- Модалка -->
+    <div class="modal-window is-closed" data-modal="feedback-call"><!--Классы открытия/закрытия .is-open/.is-closed -->
+      <div class="modal-window__wrapper">
+        <h2 class="modal-window__title title">Закажите звонок</h2>
+        <p class="modal-window__description">
+          Оставьте контакты, мы проконсультируем вас бесплатно в удобное время
+        </p>
+        <form class="modal-window__form form-modal" action="https://echo.htmlacademy.ru" method="post">
+          <div class="form-modal__name input-textarea-wrap">
+            <input type="name" placeholder="Имя" required>
+          </div>
+          <div class="form-modal__telephone input-textarea-wrap">
+            <input type="tel" placeholder="Телефон" required>
+          </div>
+          <div class="form-modal__question input-textarea-wrap">
+            <textarea placeholder="Ваш вопрос"></textarea>
+          </div>
+          <div class="form-modal__consent-checkbox consent-checkbox-wrap">
+            <label>
+              <input type="checkbox" name="consent" checked required>
+              <span></span>
+              <b>Я согласен на обработку  персональных данных</b>
+            </label>
+          </div>
+          <button type="submit">Отправить</button>
+        </form>
+        <button class="modal-window__close-button" type="button" data-close-modal>
+          <svg focusable="false" width="20" height="20" aria-label="Закрыть окно">
+            <use xlink:href="img/sprite/sprite.svg#cross"></use>
+          </svg>
+        </button>
         </div>
       </div>
     </div>

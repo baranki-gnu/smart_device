@@ -1,6 +1,10 @@
+.site-tree {
+  padding-left: 140px;
+}
+
 .site-tree__title {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 5px 0 22px 0;
+  letter-spacing: 0.05em;
 }
 
 .site-tree__list {
@@ -18,16 +22,13 @@
 .site-tree__item {
   width: 220px;
   margin-right: 30px;
-}
-
-.site-tree__item {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .site-tree__item a {
   font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 21px;
   color: rgba(255, 255, 255, 0.7);
 }
 

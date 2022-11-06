@@ -1,5 +1,5 @@
 .production-services {
-  padding-top: 70px;
+  padding-top: 65px;
   padding-bottom: 140px;
   color: $color-default-white;
   background-color: $color-black-pearl;
@@ -7,7 +7,7 @@
 
 .production-services__title {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 54px;
   font-size: 36px;
   font-weight: 400;
   line-height: 51px;
@@ -26,12 +26,11 @@
   display: flex;
   list-style-type: none;
   background-color: $color-black-pearl;
-  //background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  //url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
 }
 
 .production-services__item-title {
   max-width: 300px;
+  margin: 0;
   padding: 50px 40px;
   box-sizing: border-box;
   font-size: 20px;
@@ -53,17 +52,32 @@
 
 .production-services__list>li {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 16% 20%/auto 100% no-repeat;
+  url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
+  }
 }
 
 .production-services__list li:nth-child(2n) {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 47% 20%/auto 100% no-repeat;
+  url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
+  }
 }
 
 .production-services__list li:nth-child(3n) {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 77% 20%/auto 100% no-repeat;
+  url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
+  }
 }
 
 .production-services__item-link {
@@ -122,16 +136,31 @@
   .production-services__list>li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/main-background-desktop@1x.jpg") 24% 100%/auto 250% no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+      url("../../../img/background/main-background-desktop@2x.jpg") 24% 100%/auto 250% no-repeat;
+    }
   }
 
   .production-services__list li:nth-child(2n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/main-background-desktop@1x.jpg") 80% 50%/auto 250% no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+      url("../../../img/background/main-background-desktop@2x.jpg") 80% 50%/auto 250% no-repeat;
+    }
   }
 
   .production-services__list li:nth-child(3n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/main-background-desktop@1x.jpg") 20% 65%/auto 250% no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+      url("../../../img/background/main-background-desktop@2x.jpg") 20% 65%/auto 250% no-repeat;
+    }
   }
 }
 

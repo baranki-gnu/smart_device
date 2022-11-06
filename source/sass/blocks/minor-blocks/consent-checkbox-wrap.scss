@@ -1,0 +1,33 @@
+.consent-checkbox-wrap {
+  position: relative;
+}
+
+.consent-checkbox-wrap input {
+  display: none;
+}
+
+.consent-checkbox-wrap b {
+  margin-left: 25px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $color-default-white;
+  text-align: left;
+}
+
+.consent-checkbox-wrap span {
+  width: 15px;
+  height: 15px;
+  border: 1px solid $color-default-white;
+  border-radius: 2px;
+  content: "";
+  position: absolute;
+  z-index: 3;
+}
+
+.consent-checkbox-wrap input:checked + span {
+  background-image: url("../../../img/svg/tick.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

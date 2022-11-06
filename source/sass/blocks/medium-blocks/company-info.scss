@@ -1,6 +1,11 @@
+.company-info__wrap {
+  padding-bottom: 184px;
+  position: relative;
+}
+
 .company-info__title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   padding-left: 250px;
   font-size: 36px;
   font-weight: 400;
@@ -8,7 +13,8 @@
   color: $color-black-pearl;
 }
 
-.company-info__text {
+.company-info p {
+  margin: 0;
   margin-bottom: 20px;
   padding-left: 250px;
   display: block;
@@ -24,29 +30,61 @@
 }
 
 .company-info__button {
-  margin-bottom: 120px;
-  margin-left: 100px;
   padding: 14px 50px;
+  bottom: 120px;
+  left: 250px;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
+  letter-spacing: 0.05em;
   color: $color-deep-sky-blue;
   background-color: transparent;
   border: 1px solid $color-deep-sky-blue;
+  content: "";
+  position: absolute;
 }
 
-.company-info__button-less {
+.company-info__button.show-more .company-info__button-more,
+.company-info__button.show-less .company-info__button-less {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-info__button.show-more .company-info__button-less,
+.company-info__button.show-less .company-info__button-more {
   display: none;
 }
 
-.company-info__extra-text {
+.company-info__button.nojs .company-info__button-less {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-info__button.nojs .company-info__button-more {
   display: none;
+}
+
+.company-info__extra-text.is-closed {
+  display: none;
+}
+
+.company-info__extra-text.is-open {
+  display: block;
+}
+
+.company-info__extra-text.nojs {
+  display: block;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {
-  .company-info__text {
+  .company-info__wrap {
+    padding-bottom: 125px;
+  }
+
+  .company-info p {
     min-width: 493px;
     max-width: 743px;
+    padding-left: 180px;
   }
 
   .company-info__title {
@@ -54,13 +92,9 @@
     line-height: 51px;
   }
 
-  .company-info__text {
-    padding-left: 180px;
-  }
-
   .company-info__button {
-    margin-bottom: 80px;
-    margin-left: 30px;
+    left: 230px;
+    bottom: 80px;
   }
 }
 
@@ -75,13 +109,19 @@
     line-height: 39px;
   }
 
-  .company-info__text {
+  .company-info p {
+    min-width: 270px;
     padding-left: 0;
     font-size: 14px;
     line-height: 19px;
   }
 
   .company-info__button {
+    left: 25px;
+  }
+
+  .company-info__button.show-more,
+  .company-info__button.show-less {
     margin-left: 0;
   }
 }

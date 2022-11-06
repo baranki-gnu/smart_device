@@ -1,0 +1,26 @@
+.input-textarea-wrap input,
+.input-textarea-wrap textarea {
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: $family-mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $color-default-white;
+  background-color: rgba(4, 20, 39, 0.15);
+  border-width: 0;
+  border-radius: 3px;
+}
+
+.input-textarea-wrap textarea {
+  padding: 25px 15px;
+}
+
+.input-textarea-wrap input::placeholder,
+.input-textarea-wrap textarea::placeholder {
+  font-family: $family-mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $color-default-white;
+}

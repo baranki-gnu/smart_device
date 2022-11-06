@@ -1,4 +1,5 @@
 .navigation {
+  width: 100%;
   display: flex;
 }
 
@@ -16,5 +17,11 @@
   .navigation__user-nav {
     padding-right: 10px;
   }
+}
 
+@media (max-width: ($vp-768 - 1px)) {
+  .navigation__logo-link img {
+    width: 35px;
+    height: 35px;
+  }
 }

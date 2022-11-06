@@ -1,11 +1,10 @@
 .social-media__list {
   margin: 0;
-  padding: 0;
-  padding-left: 10px;
+  padding: 5px 0 0 15px;
   display: flex;
   list-style-type: none;
 }
 
 .social-media__item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 25px;
 }

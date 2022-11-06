@@ -1,12 +1,17 @@
+.contacts__title-toggle-wrap {
+  margin-left: 10px;
+}
+
 .contacts__title {
   width: 220px;
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 5px 0 22px 0;
+  letter-spacing: 0.05em;
 }
 
 .contacts__list {
   width: 345px;
   margin: 0;
+  margin-left: 10px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -14,7 +19,7 @@
 }
 
 .contacts__item {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   display: block;
 }
 
@@ -28,6 +33,7 @@
 
 .contacts span {
   margin-bottom: 10px;
+  margin-left: 10px;
   display: inline-block;
   vertical-align: middle;
 }

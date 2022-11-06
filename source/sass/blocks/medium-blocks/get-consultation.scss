@@ -6,18 +6,26 @@
   display: flex;
   background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
   url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+    url("../../../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
+  }
 }
 
 .get-consultation__wrap {
   width: 100%;
+  max-width: 972px;
   margin-top: 305px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .get-consultation__title {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   font-size: 80px;
-  line-height: 24px;
+  line-height: 94px;
   font-weight: 700;
   letter-spacing: 0.07em;
   color: $color-alice-blue;
@@ -27,7 +35,7 @@
 .get-consultation__description {
   max-width: 685px;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 47px;
   display: block;
   color: $color-alice-blue;
   font-size: 22px;
@@ -37,7 +45,8 @@
 }
 
 .get-consultation__link {
-  padding: 15px 25px;
+  margin-left: 2px;
+  padding: 16px 27px;
   color: $color-alice-blue;
   font-size: 18px;
   line-height: 21px;
@@ -55,7 +64,12 @@
     min-height: 640px;
     margin-top: -100px;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-  url("../../../img/background/main-background-tablet@1x.jpg") top center/cover no-repeat;
+    url("../../../img/background/main-background-tablet@1x.jpg") top center/cover no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+    url("../../../img/background/main-background-tablet@2x.jpg") top center/cover no-repeat;
+  }
   }
 
   .get-consultation__wrap {
@@ -105,5 +119,4 @@
   .get-consultation__link {
     width: 100%;
   }
-
 }

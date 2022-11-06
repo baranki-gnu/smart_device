@@ -1,19 +1,25 @@
 .feedback {
-  padding-top: 170px;
-  padding-bottom: 250px;
+  padding-top: 165px;
+  padding-bottom: 249px;
   background: url("../../../img/background/paper_airplane_desktop@1x.png") 20% 50%/510px 285px no-repeat,
   url("../../../img/svg/polygon-background.svg") top left/contain no-repeat,
   linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
+
+  @media (max-width: ($vp-1024 - 1px)) {
+    background: url("../../../img/background/paper_airplane_desktop@2x.png") 20% 50%/510px 285px no-repeat,
+    url("../../../img/svg/polygon-background.svg") top left/contain no-repeat,
+    linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
+  }
 }
 
 .feedback__inner-wrap {
-  width: 580px;
+  width: 595px;
   margin: 0 0 0 auto;
 }
 
 .feedback__title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   padding: 0;
   font-size: 36px;
   font-weight: 400;
@@ -22,11 +28,15 @@
 }
 
 .feedback__promo-text {
-  margin-bottom: 35px;
+  margin: 0 0 35px 5px;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   color: $color-default-white;
+}
+
+.feedback__form {
+  margin: 0 auto;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {

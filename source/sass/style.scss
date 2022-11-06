@@ -41,12 +41,16 @@
 @import "blocks/medium-blocks/production-services";
 @import "blocks/medium-blocks/feedback";
 @import "blocks/medium-blocks/form";
+@import "blocks/medium-blocks/modal/modal-window";
+@import "blocks/medium-blocks/modal/form-modal";
 
 //Minor Blocks
 
 @import "blocks/minor-blocks/title";
 @import "blocks/minor-blocks/button";
 @import "blocks/minor-blocks/toggle";
+@import "blocks/minor-blocks/input-textarea-wrap";
+@import "blocks/minor-blocks/consent-checkbox-wrap";
 
 // ---------------------------------
 
