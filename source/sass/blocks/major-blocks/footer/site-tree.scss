@@ -1,16 +1,26 @@
-.site-tree {
-  padding-left: 140px;
+//.site-tree {
+//  padding-left: 140px;
+//}
+
+.site-tree__inner-wrap {
+  width: min-content;
+  margin: 0 0 0 auto;
+  padding-right: 5px;
 }
 
 .site-tree__title {
-  margin: 5px 0 22px 0;
+  width: 220px;
+  margin: 5px 0 22px auto;
+  display: inline-block;
+  vertical-align: middle;
   letter-spacing: 0.05em;
 }
 
 .site-tree__list {
-  height: 160px;
+  width: min-content;
   min-width: 470px;
-  margin: 0;
+  height: 160px;
+  margin: 0 0 0 auto;
   padding: 0;
   display: flex;
   flex-direction: column;

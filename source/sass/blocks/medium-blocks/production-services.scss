@@ -39,6 +39,10 @@
   color: $color-default-white;
 }
 
+.production-services__item-title .tablet-br {
+  display: none;
+}
+
 .production-services__item:not(:last-child) {
   margin-right: 85px;
 }
@@ -114,8 +118,12 @@
 
 @media (max-width: ($vp-1024 - 1px)) {
   .production-services {
-    padding-top: 60px;
+    padding-top: 55px;
     padding-bottom: 75px;
+  }
+
+  .production-services__title {
+    margin-bottom: 38px;
   }
 
   .production-services__list {
@@ -133,34 +141,51 @@
     margin-bottom: 30px;
   }
 
+  .production-services__item h3 {
+    margin-bottom: auto;
+    padding: 37px 45px;
+  }
+
+  .production-services__item-title .desktop-br {
+    display: none;
+  }
+
+  .production-services__item-title .tablet-br {
+    display: block;
+  }
+
   .production-services__list>li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@1x.jpg") 24% 100%/auto 250% no-repeat;
+    url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
 
-    @media (min-resolution: 2dppx) {
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-      url("../../../img/background/main-background-desktop@2x.jpg") 24% 100%/auto 250% no-repeat;
-    }
+    //@media (min-resolution: 2dppx) {
+    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    //  url("../../../img/background/main-background-desktop@2x.jpg") 24% 100%/auto 250% no-repeat;
+    //}
   }
 
   .production-services__list li:nth-child(2n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@1x.jpg") 80% 50%/auto 250% no-repeat;
+    url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
 
-    @media (min-resolution: 2dppx) {
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-      url("../../../img/background/main-background-desktop@2x.jpg") 80% 50%/auto 250% no-repeat;
-    }
+    //@media (min-resolution: 2dppx) {
+    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    //  url("../../../img/background/main-background-desktop@2x.jpg") 80% 50%/auto 250% no-repeat;
+    //}
   }
 
   .production-services__list li:nth-child(3n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@1x.jpg") 20% 65%/auto 250% no-repeat;
+    url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
 
-    @media (min-resolution: 2dppx) {
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-      url("../../../img/background/main-background-desktop@2x.jpg") 20% 65%/auto 250% no-repeat;
-    }
+    //@media (min-resolution: 2dppx) {
+    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    //  url("../../../img/background/main-background-desktop@2x.jpg") 20% 65%/auto 250% no-repeat;
+    //}
+  }
+
+  .production-services__item-button::after {
+    left: 45%;
   }
 }
 

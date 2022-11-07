@@ -32,7 +32,7 @@
 .company-info__button {
   padding: 14px 50px;
   bottom: 120px;
-  left: 250px;
+  left: 275px;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -81,10 +81,15 @@
     padding-bottom: 125px;
   }
 
+  .company-info__wrap img {
+    margin-top: 4px;
+  }
+
   .company-info p {
     min-width: 493px;
     max-width: 743px;
     padding-left: 180px;
+    line-height: 21.5px;
   }
 
   .company-info__title {

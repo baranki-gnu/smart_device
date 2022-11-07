@@ -22,11 +22,11 @@
 
 .form-modal__name,
 .form-modal__telephone {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .form-modal__question {
-  margin-bottom: 25px;
+  margin-bottom: 17px;
 }
 
 .form-modal__name input,
@@ -40,10 +40,15 @@
 }
 
 .form-modal__consent-checkbox {
+  margin-left: 10px;
   order: 2;
 }
 
 .form-modal__consent-checkbox span {
   top: 0;
   left: 0;
+}
+
+.form-modal button {
+  padding: 15px 50px 11px 50px;
 }

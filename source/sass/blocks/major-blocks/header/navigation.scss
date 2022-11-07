@@ -1,6 +1,9 @@
 .navigation {
   width: 100%;
-  display: flex;
+  //display: flex;
+  display: grid;
+  grid-template-columns: 215px auto;
+  gap: 30px;
 }
 
 .navigation__user-nav {
@@ -13,11 +16,16 @@
   display: inline-block;
 }
 
-@media (max-width: ($vp-1024 - 1px)) {
-  .navigation__user-nav {
-    padding-right: 10px;
+/*@media (max-width: ($vp-1024 - 1px)) {
+  .navigation.container {
+    padding-left: 50px;
+    padding-right: 50px;
   }
-}
+
+  //.navigation__user-nav {
+  //  padding-right: 10px;
+  //}
+}*/
 
 @media (max-width: ($vp-768 - 1px)) {
   .navigation__logo-link img {

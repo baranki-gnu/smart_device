@@ -20,8 +20,10 @@
   min-width: 260px;
   max-width: 500px;
   margin: 146px auto auto auto;
-  padding: 40px;
+  padding: 40px 40px 46px 40px;
   background-color: $color-deep-sky-blue-bg;
+  border-radius: 3px;
+  transform: translateX(-8px);
   position: relative;
   z-index: 5;
 }
@@ -29,7 +31,7 @@
 .modal-window h2 {
   width: 100%;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-size: 30px;
   font-weight: 400;
   line-height: 42px;
@@ -39,7 +41,7 @@
 .modal-window p {
   max-width: 380px;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;

@@ -1,9 +1,9 @@
 .container {
-  max-width: 1222px;
+  max-width: 1272px;
   min-width: 1024px;
   margin: 0 auto;
-  //padding-left: 50px;
-  //padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   box-sizing: border-box;
 
  /* @include vp-1439 {
@@ -23,6 +23,8 @@
   .container {
     max-width: 1023px;
     min-width: 770px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -30,7 +32,5 @@
   .container {
     max-width: 767px;
     min-width: 320px;
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }

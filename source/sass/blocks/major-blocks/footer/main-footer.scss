@@ -6,13 +6,29 @@
 }
 
 .main-footer__wrap {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 240px auto 370px;
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
+}
+
+.main-footer__inner-wrap {
+  padding-right: 25px;
+  grid-column: 1/2;
 }
 
 .main-footer__logo {
   display: block;
   margin-bottom: 30px;
+}
+
+.main-footer__site-map {
+  grid-column: 2/3;
+}
+
+.main-footer__contacts {
+  grid-column: 3/4;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {

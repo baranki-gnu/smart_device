@@ -1,0 +1,11 @@
+.logo-link {
+  display: block;
+  width: 215px;
+  height: 55px;
+
+  @media (max-width: ($vp-768 - 1px)) {
+    width: 35px;
+    height: 35px;
+  }
+}
+
