@@ -65,8 +65,6 @@
   fill: $color-alice-blue;
 }
 
-
-
 @media (max-width: ($vp-1024 - 1px)) {
   .advantages {
     padding-top: 80px;
@@ -116,18 +114,24 @@
   }
 
   .advantages__list {
-    flex-direction: column;
-    flex-wrap: nowrap;
+    grid-template-columns: 1fr;
   }
 
   .advantages__item {
     width: 100%;
     min-width: 270px;
     max-width: 717px;
+    min-height: 325px;
+    padding: 30px 30px 56px 27px;
   }
 
   .advantages__item:nth-child(odd) {
     margin-right: 0;
+  }
+
+  .advantages__item svg {
+    width: 30px;
+    height: 30px;
   }
 
   .advantages__item h3 {

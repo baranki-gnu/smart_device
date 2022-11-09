@@ -24,3 +24,9 @@
   line-height: 22px;
   color: $color-default-white;
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .input-textarea-wrap textarea {
+    padding-top: 30px;
+  }
+}

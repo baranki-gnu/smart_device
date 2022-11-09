@@ -157,31 +157,16 @@
   .production-services__list>li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
-
-    //@media (min-resolution: 2dppx) {
-    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    //  url("../../../img/background/main-background-desktop@2x.jpg") 24% 100%/auto 250% no-repeat;
-    //}
   }
 
   .production-services__list li:nth-child(2n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
-
-    //@media (min-resolution: 2dppx) {
-    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    //  url("../../../img/background/main-background-desktop@2x.jpg") 80% 50%/auto 250% no-repeat;
-    //}
   }
 
   .production-services__list li:nth-child(3n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
-
-    //@media (min-resolution: 2dppx) {
-    //  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    //  url("../../../img/background/main-background-desktop@2x.jpg") 20% 65%/auto 250% no-repeat;
-    //}
   }
 
   .production-services__item-button::after {
@@ -200,10 +185,38 @@
   }
 
   .production-services__subtitle {
+    margin: 0;
+    margin-bottom: 27px;
     display: block;
     font-size: 28px;
     font-weight: 400;
     line-height: 39px;
     color: $color-default-white;
+  }
+
+  .production-services__item h3 {
+    padding: 24px 32px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .production-services__item button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .production-services__list>li {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
+  }
+
+  .production-services__list li:nth-child(2n) {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
+  }
+
+  .production-services__list li:nth-child(3n) {
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
+    url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
   }
 }

@@ -8,3 +8,15 @@
 .social-media__item:not(:last-child) {
   margin-right: 25px;
 }
+
+@media (max-width: ($vp-1024 - 1px)) {
+  .social-media__list {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: ($vp-768 - 1px)) {
+  .social-media__list {
+    padding-left: 0;
+  }
+}

@@ -43,6 +43,14 @@
 }
 
 @media (max-width: ($vp-1024 - 1px)) {
+  .site-tree__inner-wrap {
+    margin: 0;
+  }
+
+  .site-tree h2 {
+    margin-top: 2px;
+  }
+
   .site-tree__list {
     width: 220px;
     height: min-content;
@@ -63,6 +71,12 @@
     background-color: rgba(248, 253, 255, 0.7);
     content: "";
     position: absolute;
+  }
+
+  .site-tree__inner-wrap {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .site-tree__title {

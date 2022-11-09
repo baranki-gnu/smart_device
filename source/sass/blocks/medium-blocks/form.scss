@@ -64,6 +64,10 @@
 }
 
 @media (max-width: ($vp-1024 - 1px)) {
+  .form {
+    max-width: 670px;
+  }
+
   .form__name-field {
     width: calc((100% - 30px)/2);
   }
@@ -79,11 +83,24 @@
 
   .form__question-textarea {
     width: 100%;
+    margin-bottom: 29px;
   }
 
   .form textarea {
     width: 100%;
     min-width: 670px;
+  }
+
+  .form__consent-checkbox {
+    padding-top: 11px;
+  }
+
+  .form__consent-checkbox span {
+    top: 18px;
+  }
+
+  .form button {
+    margin-right: 85px;
   }
 }
 
@@ -104,12 +121,19 @@
 
   .form button {
     margin-right: 0;
+    padding: 14px 70px 12px 70px;
   }
 
   .form__question-textarea {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
+  .form__question-textarea textarea {
+    min-height: 180px;
+    padding: 25px 15px;
+  }
+
+  .form input,
   .form textarea {
     min-width: 270px;
   }

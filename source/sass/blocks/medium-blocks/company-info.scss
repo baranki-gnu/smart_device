@@ -13,6 +13,10 @@
   color: $color-black-pearl;
 }
 
+.company-info__text-wrap {
+  margin-bottom: 20px;
+}
+
 .company-info p {
   margin: 0;
   margin-bottom: 20px;
@@ -23,6 +27,10 @@
   line-height: 22px;
   color: $color-black-pearl;
   text-align: left;
+}
+
+.company-info p + p {
+  margin-bottom: 0;
 }
 
 .company-info__image {
@@ -64,21 +72,26 @@
   display: none;
 }
 
-.company-info__extra-text.is-closed {
+.company-info__text--less {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.company-info__text--extra.is-closed {
   display: none;
 }
 
-.company-info__extra-text.is-open {
+.company-info__text--extra.is-open {
   display: block;
 }
 
-.company-info__extra-text.nojs {
+.company-info__text--extra.nojs {
   display: block;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {
   .company-info__wrap {
-    padding-bottom: 125px;
+    padding-bottom: 124px;
   }
 
   .company-info__wrap img {
@@ -88,22 +101,26 @@
   .company-info p {
     min-width: 493px;
     max-width: 743px;
-    padding-left: 180px;
+    padding-left: 175px;
     line-height: 21.5px;
   }
 
   .company-info__title {
-    padding-left: 180px;
+    padding-left: 175px;
     line-height: 51px;
   }
 
   .company-info__button {
-    left: 230px;
+    left: 225px;
     bottom: 80px;
   }
 }
 
 @media (max-width: ($vp-768 - 1px)) {
+  .company-info__wrap {
+    padding-bottom: 113px;
+  }
+
   .company-info__image {
     display: none;
   }
@@ -114,19 +131,37 @@
     line-height: 39px;
   }
 
+  .company-info__text-wrap {
+    margin-bottom: 16px;
+  }
+
   .company-info p {
     min-width: 270px;
     padding-left: 0;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18.5px;
   }
 
   .company-info__button {
+    padding: 10px 40px;
     left: 25px;
+    bottom: 80px;
   }
 
   .company-info__button.show-more,
   .company-info__button.show-less {
     margin-left: 0;
+  }
+
+  .company-info__text--less.is-closed {
+    display: none;
+  }
+
+  .company-info__text--less.is-closed.nojs {
+    display: block;
+  }
+
+  .company-info__text--less.is-open {
+    display: block;
   }
 }

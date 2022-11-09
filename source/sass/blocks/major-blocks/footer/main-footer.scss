@@ -33,7 +33,7 @@
 
 @media (max-width: ($vp-1024 - 1px)) {
   .main-footer {
-    padding-bottom: 65px;
+    padding-bottom: 52px;
   }
 
   .main-footer__logo {
@@ -48,6 +48,7 @@
 
   .main-footer__inner-wrap {
     width: 100%;
+    padding-right: 0;
     display: flex;
     justify-content: space-between;
     grid-row: 1/2;
@@ -71,7 +72,7 @@
 @media (max-width: ($vp-768 - 1px)) {
   .main-footer {
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 33px;
   }
 
   .main-footer__wrap {
@@ -87,11 +88,11 @@
   }
 
   .main-footer__logo {
-    margin: 0 auto 15px auto;
+    margin: 0 auto 10px auto;
   }
 
   .main-footer__social {
-    margin: 0 auto 25px auto;
+    margin: 0 auto 23px auto;
   }
 
   .main-footer__contacts {

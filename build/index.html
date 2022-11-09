@@ -116,33 +116,41 @@
           <div class="company-info__wrap container">
             <img class="company-info__image" src="img/background/2022-desktop@1x.png" width="150" height="320" alt="На острие технологий с 1997 по нынешний 2022 год.">
             <h2 class="company-info__title title">О компании</h2>
-            <p class="company-info__text">
-              Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997 года.
-              Выполняем срочные заказы и пилотные образцы до 10 дней. </p>
-            <p class="company-info__text">
-              Наши поставщики - мировые производители электронных
-              компонентов: OSRAM, CREE, HOLGLITRONIC, REFOND.
-              Печатные платы и комплектующие Service Devices применяются на предприятиях Российских Железных Дорог (РЖД),
-              РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники.
-              Среди наших клиентов крупнейшие Производители светотехники России.
-            </p>
-            <p class="company-info__extra-text is-closed nojs" data-extra-text><!--Классы для переключения видимости is-closed/is-open-->
-              Smart Device - это команда профессионалов. Через нас прошло более 1 000 000 клиентов, 70% из которых продолжают
-              сотрудничество по сей день. На данный момент насчитывается более 14 офисов по всей стране и 20 городов присутствия.
-              Мы стремимся к постоянному развитию и повышению уровня качества продукции, производимой внутри компании. Использование
-              инновационных технологий помогает экономить деньги и время наших клиентов
-            </p>
-            <button class="company-info__button button show-more nojs" data-show-more-less><!--Классы для переключения состояния кнопки .show-more/show-less-->
-              <span class="company-info__button-more">Подробнее</span>
-              <span class="company-info__button-less">Скрыть</span>
-            </button>
+            <div class="company-info__text-wrap">
+              <p class="company-info__text">
+                Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997 года.
+                Выполняем срочные заказы и пилотные образцы до 10 дней. </p>
+              <p class="company-info__text">
+                Наши поставщики - мировые производители электронных
+                компонентов: OSRAM, CREE, HOLGLITRONIC, REFOND.
+              </p>
+              <p class="company-info__text company-info__text--less is-closed nojs" data-less-text>
+                <!--Классы для переключения видимости is-closed/is-open-->
+                Печатные платы и комплектующие Service Devices применяются на предприятиях Российских Железных Дорог (РЖД),
+                РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники.
+                Среди наших клиентов крупнейшие Производители светотехники России.
+              </p>
+              <p class="company-info__text company-info__text--extra is-closed nojs" data-extra-text>
+                <!--Классы для переключения видимости is-closed/is-open-->
+                Smart Device - это команда профессионалов. Через нас прошло более 1 000 000 клиентов, 70% из которых продолжают
+                сотрудничество по сей день. На данный момент насчитывается более 14 офисов по всей стране и 20 городов присутствия.
+                Мы стремимся к постоянному развитию и повышению уровня качества продукции, производимой внутри компании.
+                Использование
+                инновационных технологий помогает экономить деньги и время наших клиентов
+              </p>
+              <button class="company-info__button button show-more nojs" data-show-more-less>
+                <!--Классы для переключения состояния кнопки .show-more/show-less-->
+                <span class="company-info__button-more">Подробнее</span>
+                <span class="company-info__button-less">Скрыть</span>
+              </button>
+            </div>
           </div>
         </section>
         <!--Production and Services-->
         <section class="main-content__goods-services production-services">
           <div class="production-services__wrap container">
             <h2 class="production-services__title title">Smart Device предлагает следующие товары и услуги</h2>
-            <h3 class="production-services__subtitle title">Товары и услуги Smart Device</h3>
+            <h3 class="production-services__subtitle title">Товары и услуги <br>Smart Device</h3>
             <ul class="production-services__list">
               <li class="production-services__item">
                 <a class="production-services__item-link" href="#">
@@ -201,7 +209,7 @@
       <footer class="page__footer main-footer">
         <div class="main-footer__wrap container">
           <div class="main-footer__inner-wrap">
-            <a class="main-footer__logo logo-link">
+            <a class="main-footer__logo logo-link logo-link--footer">
               <img src="img/svg/logo-smart-device.svg" width="215" height="55" alt="Smart Device.">
             </a>
             <!--Social Media-->
