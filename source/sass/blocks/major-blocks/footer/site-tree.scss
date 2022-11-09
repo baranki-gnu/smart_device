@@ -1,14 +1,10 @@
-//.site-tree {
-//  padding-left: 140px;
-//}
-
 .site-tree__inner-wrap {
   width: min-content;
   margin: 0 0 0 auto;
   padding-right: 5px;
 }
 
-.site-tree__title {
+.site-tree h2 {
   width: 220px;
   margin: 5px 0 22px auto;
   display: inline-block;
@@ -79,7 +75,7 @@
     padding-right: 0;
   }
 
-  .site-tree__title {
+  .site-tree h2 {
     margin: 0;
   }
 

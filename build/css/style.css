@@ -637,17 +637,6 @@ button,
   padding-right: 25px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* @include vp-1439 {
-     padding: 0 32px;
-   }
-
-   @include vp-1023 {
-     padding: 0 24px;
-   }
-
-   @include vp-767 {
-     padding: 0 16px;
-   }*/
 }
 
 .btn {
@@ -798,7 +787,7 @@ button,
   position: relative;
 }
 
-.page__header {
+.page header {
   margin: 0;
 }
 
@@ -819,10 +808,6 @@ button,
   z-index: 5;
 }
 
-.main-header {
-  width: 100%;
-}
-
 .navigation {
   width: 100%;
   display: -ms-grid;
@@ -840,18 +825,8 @@ button,
   width: 215px;
   height: 55px;
   display: inline-block;
+  vertical-align: middle;
 }
-
-/*@media (max-width: ($vp-1024 - 1px)) {
-  .navigation.container {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  //.navigation__user-nav {
-  //  padding-right: 10px;
-  //}
-}*/
 
 .user-navigation {
   width: 100%;
@@ -862,41 +837,39 @@ button,
   min-width: 545px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
   display: -ms-grid;
   display: grid;
-  list-style-type: none;
   -ms-grid-columns: 30% 40% 30%;
   grid-template-columns: 30% 40% 30%;
 }
 
 .user-navigation__item {
-  margin-top: 16px;
+  min-width: 160px;
   padding-left: 20px;
   position: relative;
-  min-width: 160px;
 }
 
 .user-navigation__item--mail {
+  max-width: 262px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  max-width: 262px;
 }
 
 .user-navigation__item--telephone {
+  max-width: 300px;
+  min-width: 225px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  max-width: 300px;
-  min-width: 225px;
 }
 
 .user-navigation__item--callback {
+  max-width: 232px;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
-  max-width: 232px;
-  font-family: "Roboto Condensed", sans-serif, Arial;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -911,6 +884,8 @@ button,
   width: -moz-max-content;
   width: max-content;
   margin-left: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1001,7 +976,7 @@ button,
   padding-right: 5px;
 }
 
-.site-tree__title {
+.site-tree h2 {
   width: 220px;
   margin: 5px 0 22px auto;
   display: inline-block;
@@ -1052,7 +1027,7 @@ button,
   width: 317px;
 }
 
-.contacts__title {
+.contacts h2 {
   width: 220px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -1175,9 +1150,9 @@ button,
 }
 
 .advantages__item {
+  width: 100%;
   min-width: 447px;
   max-width: 595px;
-  width: 100%;
   padding: 40px 30px 37px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1236,7 +1211,7 @@ button,
   position: relative;
 }
 
-.company-info__title {
+.company-info h2 {
   margin: 0;
   margin-bottom: 12px;
   padding-left: 250px;
@@ -1266,11 +1241,11 @@ button,
   margin-bottom: 0;
 }
 
-.company-info__image {
+.company-info img {
   float: left;
 }
 
-.company-info__button {
+.company-info button {
   padding: 14px 50px;
   bottom: 120px;
   left: 275px;
@@ -1315,10 +1290,12 @@ button,
 }
 
 .company-info__text--extra.is-open {
+  margin-top: 20px;
   display: block;
 }
 
 .company-info__text--extra.nojs {
+  margin-top: 20px;
   display: block;
 }
 
@@ -1329,7 +1306,7 @@ button,
   background-color: #041827;
 }
 
-.production-services__title {
+.production-services h2 {
   margin: 0;
   margin-bottom: 54px;
   font-size: 36px;
@@ -1337,7 +1314,7 @@ button,
   line-height: 51px;
 }
 
-.production-services__subtitle {
+.production-services h3 {
   display: none;
 }
 
@@ -1353,10 +1330,11 @@ button,
   background-color: #041827;
 }
 
-.production-services__item-title {
+.production-services__item h3 {
   max-width: 300px;
   margin: 0;
   padding: 50px 40px;
+  display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 20px;
@@ -1400,12 +1378,12 @@ button,
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
 }
 
-.production-services__item-link {
+.production-services__item a {
   width: 100%;
   height: 100%;
 }
 
-.production-services__item-button {
+.production-services__item span {
   width: 60px;
   height: 60px;
   right: 0;
@@ -1421,7 +1399,7 @@ button,
   z-index: 3;
 }
 
-.production-services__item-button::after {
+.production-services__item span::after {
   width: 6px;
   height: 6px;
   top: 50%;
@@ -1439,9 +1417,9 @@ button,
 .feedback {
   padding-top: 165px;
   padding-bottom: 249px;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
+  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
+  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
+  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
 }
 
 .feedback__inner-wrap {
@@ -1449,7 +1427,7 @@ button,
   margin: 0 0 0 auto;
 }
 
-.feedback__title {
+.feedback h2 {
   margin: 0;
   margin-bottom: 12px;
   padding: 0;
@@ -1459,7 +1437,7 @@ button,
   color: #ffffff;
 }
 
-.feedback__promo-text {
+.feedback p {
   margin: 0 0 35px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -1467,7 +1445,7 @@ button,
   color: #ffffff;
 }
 
-.feedback__form {
+.feedback form {
   margin: 0 auto;
 }
 
@@ -1548,9 +1526,9 @@ button,
 }
 
 .modal-window.is-open {
-  display: block;
   width: 100%;
   height: 100vh;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -1561,11 +1539,11 @@ button,
 
 .modal-window__wrapper {
   width: 80%;
+  min-width: 260px;
+  max-width: 500px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  min-width: 260px;
-  max-width: 500px;
   margin: 146px auto auto auto;
   padding: 40px 40px 46px 40px;
   background-color: #00B3ff;
@@ -1878,7 +1856,6 @@ button,
     width: min-content;
     min-width: 40px;
     min-height: 40px;
-    margin-top: 10px;
     margin-bottom: auto;
     padding-left: 0;
   }
@@ -1886,6 +1863,8 @@ button,
   .user-navigation__item a {
     width: 100%;
     height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .user-navigation__item svg {
@@ -1979,7 +1958,7 @@ button,
     padding-right: 3px;
   }
 
-  .contacts__title {
+  .contacts h2 {
     margin-top: 2px;
   }
 
@@ -2056,12 +2035,12 @@ button,
     line-height: 21.5px;
   }
 
-  .company-info__title {
+  .company-info h2 {
     padding-left: 175px;
     line-height: 51px;
   }
 
-  .company-info__button {
+  .company-info button {
     left: 225px;
     bottom: 80px;
   }
@@ -2071,7 +2050,7 @@ button,
     padding-bottom: 75px;
   }
 
-  .production-services__title {
+  .production-services h2 {
     margin-bottom: 38px;
   }
 
@@ -2126,14 +2105,14 @@ button,
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
   }
 
-  .production-services__item-button::after {
+  .production-services__item span::after {
     left: 45%;
   }
 
   .feedback {
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 20% 50%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
+    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
+    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
+    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
   }
 
   .feedback {
@@ -2326,7 +2305,7 @@ button,
     padding-right: 0;
   }
 
-  .site-tree__title {
+  .site-tree h2 {
     margin: 0;
   }
 
@@ -2377,7 +2356,7 @@ button,
     width: 100%;
   }
 
-  .contacts__title {
+  .contacts h2 {
     margin: 0;
   }
 
@@ -2484,11 +2463,15 @@ button,
     min-width: 270px;
     max-width: 717px;
     min-height: 325px;
-    padding: 30px 30px 56px 27px;
+    padding: 30px 30px 56px 25px;
   }
 
   .advantages__item:nth-child(odd) {
     margin-right: 0;
+  }
+
+  .advantages__item:hover {
+    padding-left: 28px;
   }
 
   .advantages__item svg {
@@ -2510,11 +2493,11 @@ button,
     padding-bottom: 113px;
   }
 
-  .company-info__image {
+  .company-info img {
     display: none;
   }
 
-  .company-info__title {
+  .company-info h2 {
     padding-left: 0;
     font-size: 28px;
     line-height: 39px;
@@ -2531,14 +2514,14 @@ button,
     line-height: 18.5px;
   }
 
-  .company-info__button {
-    padding: 10px 40px;
+  .company-info button {
+    padding: 9px 40px;
     left: 25px;
     bottom: 80px;
   }
 
-  .company-info__button.show-more,
-  .company-info__button.show-less {
+  .company-info button.show-more,
+  .company-info button.show-less {
     margin-left: 0;
   }
 
@@ -2559,11 +2542,11 @@ button,
     padding-bottom: 86px;
   }
 
-  .production-services__title {
+  .production-services h2 {
     display: none;
   }
 
-  .production-services__subtitle {
+  .production-services h3 {
     margin: 0;
     margin-bottom: 27px;
     display: block;
@@ -2579,7 +2562,7 @@ button,
     line-height: 30px;
   }
 
-  .production-services__item button {
+  .production-services__item span {
     width: 40px;
     height: 40px;
   }

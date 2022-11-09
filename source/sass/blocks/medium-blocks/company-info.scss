@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.company-info__title {
+.company-info h2 {
   margin: 0;
   margin-bottom: 12px;
   padding-left: 250px;
@@ -29,15 +29,15 @@
   text-align: left;
 }
 
-.company-info p + p {
+.company-info p+p {
   margin-bottom: 0;
 }
 
-.company-info__image {
+.company-info img {
   float: left;
 }
 
-.company-info__button {
+.company-info button {
   padding: 14px 50px;
   bottom: 120px;
   left: 275px;
@@ -82,10 +82,12 @@
 }
 
 .company-info__text--extra.is-open {
+  margin-top: 20px;
   display: block;
 }
 
 .company-info__text--extra.nojs {
+  margin-top: 20px;
   display: block;
 }
 
@@ -105,12 +107,12 @@
     line-height: 21.5px;
   }
 
-  .company-info__title {
+  .company-info h2 {
     padding-left: 175px;
     line-height: 51px;
   }
 
-  .company-info__button {
+  .company-info button {
     left: 225px;
     bottom: 80px;
   }
@@ -121,11 +123,11 @@
     padding-bottom: 113px;
   }
 
-  .company-info__image {
+  .company-info img {
     display: none;
   }
 
-  .company-info__title {
+  .company-info h2 {
     padding-left: 0;
     font-size: 28px;
     line-height: 39px;
@@ -142,14 +144,14 @@
     line-height: 18.5px;
   }
 
-  .company-info__button {
-    padding: 10px 40px;
+  .company-info button {
+    padding: 9px 40px;
     left: 25px;
     bottom: 80px;
   }
 
-  .company-info__button.show-more,
-  .company-info__button.show-less {
+  .company-info button.show-more,
+  .company-info button.show-less {
     margin-left: 0;
   }
 

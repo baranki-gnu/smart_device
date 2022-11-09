@@ -5,7 +5,7 @@
   background-color: $color-black-pearl;
 }
 
-.production-services__title {
+.production-services h2 {
   margin: 0;
   margin-bottom: 54px;
   font-size: 36px;
@@ -14,7 +14,7 @@
 }
 
 
-.production-services__subtitle {
+.production-services h3 {
   display: none;
 }
 
@@ -28,10 +28,11 @@
   background-color: $color-black-pearl;
 }
 
-.production-services__item-title {
+.production-services__item h3 {
   max-width: 300px;
   margin: 0;
   padding: 50px 40px;
+  display: block;
   box-sizing: border-box;
   font-size: 20px;
   font-weight: 400;
@@ -56,40 +57,40 @@
 
 .production-services__list>li {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
+    url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
 
   @media (min-resolution: 2dppx) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
+      url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
   }
 }
 
 .production-services__list li:nth-child(2n) {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
+    url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
 
   @media (min-resolution: 2dppx) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
+      url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
   }
 }
 
 .production-services__list li:nth-child(3n) {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-  url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
+    url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
 
   @media (min-resolution: 2dppx) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
+      url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
   }
 }
 
-.production-services__item-link {
+.production-services__item a {
   width: 100%;
   height: 100%;
 }
 
-.production-services__item-button {
+.production-services__item span {
   width: 60px;
   height: 60px;
   right: 0;
@@ -103,7 +104,7 @@
   z-index: 3;
 }
 
-.production-services__item-button::after {
+.production-services__item span::after {
   width: 6px;
   height: 6px;
   top: 50%;
@@ -122,7 +123,7 @@
     padding-bottom: 75px;
   }
 
-  .production-services__title {
+  .production-services h2 {
     margin-bottom: 38px;
   }
 
@@ -156,20 +157,20 @@
 
   .production-services__list>li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(2n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(3n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
   }
 
-  .production-services__item-button::after {
+  .production-services__item span::after {
     left: 45%;
   }
 }
@@ -180,11 +181,11 @@
     padding-bottom: 86px;
   }
 
-  .production-services__title {
+  .production-services h2 {
     display: none;
   }
 
-  .production-services__subtitle {
+  .production-services h3 {
     margin: 0;
     margin-bottom: 27px;
     display: block;
@@ -200,23 +201,23 @@
     line-height: 30px;
   }
 
-  .production-services__item button {
+  .production-services__item span {
     width: 40px;
     height: 40px;
   }
 
   .production-services__list>li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(2n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(3n) {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
-    url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
+      url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
   }
 }
