@@ -65,7 +65,8 @@
 
 @media (max-width: ($vp-1024 - 1px)) {
   .form {
-    max-width: 670px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .form__name-field {

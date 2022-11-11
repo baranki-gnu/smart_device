@@ -1,7 +1,7 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {toggleMenu, dataItems} from './utils/menu-toggle';
-import {openModal, closeModal} from './modules\\modals/modal-window';
+import {openModal, closeModal} from './modules/modals/modal-window';
 import {scrollToForm} from './utils/scroll-to-form';
 import {showMoreLess} from './utils/show-more-less';
 import {maskPhoneInput} from './utils/telephone-mask';

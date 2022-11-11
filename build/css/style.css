@@ -630,8 +630,8 @@ button,
 }
 
 .container {
+  width: 100%;
   max-width: 1272px;
-  min-width: 1024px;
   margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -1078,17 +1078,17 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
-  background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
-  background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+  background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
 }
 
 .get-consultation__wrap {
   width: 100%;
   max-width: 972px;
   margin-top: 305px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .get-consultation__title {
@@ -1361,21 +1361,21 @@ button,
 }
 
 .production-services__list > li {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
-  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
-  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat;
 }
 
 .production-services__list li:nth-child(2n) {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
-  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
-  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 47% 100%/auto 110% no-repeat;
 }
 
 .production-services__list li:nth-child(3n) {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
-  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
-  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
+  background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
+  background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@1x.jpg") 78% 90%/auto 110% no-repeat;
 }
 
 .production-services__item a {
@@ -1417,9 +1417,9 @@ button,
 .feedback {
   padding-top: 165px;
   padding-bottom: 249px;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
-  background: url("../../../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
+  background: url("../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
+  background: url("../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
+  background: url("../img/background/paper_airplane_desktop@1x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
 }
 
 .feedback__inner-wrap {
@@ -1824,10 +1824,49 @@ button,
   }
 */
 
+@media (max-width: 1150px) {
+  .main-footer__wrap {
+    -ms-grid-columns: 1fr auto;
+    grid-template-columns: 1fr auto;
+    -ms-grid-rows: 1fr auto;
+    grid-template-rows: 1fr auto;
+  }
+
+  .main-footer__inner-wrap {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+
+  .main-footer__site-map {
+    margin: 0 auto 0 0;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+
+  .main-footer__contacts {
+    min-width: 320px;
+    max-width: 345px;
+    margin: 0 auto 0 0;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+}
+
 @media (max-width: 1023px) {
   .container {
     max-width: 1023px;
-    min-width: 770px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -1966,13 +2005,15 @@ button,
     min-height: 640px;
     margin-top: -100px;
     padding-top: 60px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
   }
 
   .get-consultation__wrap {
     margin-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .get-consultation__title {
@@ -2088,21 +2129,21 @@ button,
   }
 
   .production-services__list > li {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(2n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(3n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat;
   }
 
   .production-services__item span::after {
@@ -2110,9 +2151,9 @@ button,
   }
 
   .feedback {
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
-    background: url("../../../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../../../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
+    background: url("../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, -webkit-gradient(linear, left bottom, left top, from(#00B3ff), to(#00B3ff)) center/cover no-repeat;
+    background: url("../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, -o-linear-gradient(bottom, #00B3ff, #00B3ff) center/cover no-repeat;
+    background: url("../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat, url("../img/svg/polygon-background.svg") top left/contain no-repeat, linear-gradient(to top, #00B3ff, #00B3ff) center/cover no-repeat;
   }
 
   .feedback {
@@ -2127,6 +2168,10 @@ button,
     margin: 0 auto;
   }
 
+  .feedback__title-text-wrap {
+    margin: 0 auto;
+  }
+
   .feedback h2 {
     margin-bottom: 6px;
   }
@@ -2137,7 +2182,8 @@ button,
   }
 
   .form {
-    max-width: 670px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .form__name-field {
@@ -2182,9 +2228,9 @@ button,
 
 @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1023px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 1023px) and (min-resolution: 2dppx) {
   .get-consultation {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../../../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
   }
 }
 
@@ -2270,6 +2316,10 @@ button,
     margin: 0 auto 10px auto;
   }
 
+  .main-footer__site-map {
+    margin: 0 auto;
+  }
+
   .main-footer__social {
     margin: 0 auto 23px auto;
   }
@@ -2286,7 +2336,12 @@ button,
   }
 
   .site-tree {
+    width: 100%;
     position: relative;
+  }
+
+  .site-tree__list {
+    margin: 0 auto 0 0;
   }
 
   .site-tree::before {
@@ -2406,13 +2461,15 @@ button,
   .get-consultation {
     min-height: 560px;
     margin-top: -70px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
   }
 
   .get-consultation__wrap {
     margin-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .get-consultation h2 {
@@ -2568,21 +2625,21 @@ button,
   }
 
   .production-services__list > li {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(2n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat;
   }
 
   .production-services__list li:nth-child(3n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat;
   }
 
   .feedback {
@@ -2694,26 +2751,26 @@ button,
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
   .get-consultation {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
   }
 
   .production-services__list > li {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 17% 95%/auto 110% no-repeat;
   }
 
   .production-services__list li:nth-child(2n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 47% 100%/auto 110% no-repeat;
   }
 
   .production-services__list li:nth-child(3n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../../../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/main-background-desktop@2x.jpg") 78% 90%/auto 110% no-repeat;
   }
 }
