@@ -5,20 +5,24 @@
   margin-top: -120px;
   display: flex;
   background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-  url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat;
+    url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat,
+    linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
 
   @media (min-resolution: 2dppx) {
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-    url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat;
+      url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat,
+      linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
   }
 }
 
 .get-consultation__wrap {
   width: 100%;
-  max-width: 972px;
+  max-width: 1072px;
   margin-top: 305px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .get-consultation__title {
@@ -65,12 +69,12 @@
     margin-top: -100px;
     padding-top: 60px;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-    url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
+      url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
 
-  @media (min-resolution: 2dppx) {
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-    url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
-  }
+    @media (min-resolution: 2dppx) {
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+        url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
+    }
   }
 
   .get-consultation__wrap {
@@ -100,7 +104,7 @@
     min-height: 560px;
     margin-top: -70px;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-    url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
+      url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
   }
 
   .get-consultation__wrap {

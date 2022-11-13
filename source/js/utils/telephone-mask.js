@@ -4,22 +4,26 @@ let modalForm = document.querySelector('[data-modal]');
 let feedbackForm = document.querySelector('[data-feedback-form]');
 
 function createMask(formBlock) {
-  let inputField = formBlock.querySelector('[data-telephone-input] input');
-  let submitButton = formBlock.querySelector('[data-button-submit]');
+  if (formBlock) {
+    let inputField = formBlock.querySelector('[data-telephone-input] input');
+    let submitButton = formBlock.querySelector('[data-button-submit]');
 
-  submitButton.disabled = true;
+    if (inputField && submitButton) {
+      submitButton.disabled = true;
 
-  const phoneMask = new IMask(inputField, {
-    mask: '+{7}(000)000-00-00',
-  });
+      const phoneMask = new IMask(inputField, {
+        mask: '+{7}(000)000-00-00',
+      });
 
-  inputField.addEventListener('input', (evt) => {
-    evt.preventDefault();
+      inputField.addEventListener('input', (evt) => {
+        evt.preventDefault();
 
-    phoneMask.on('complete', () => {
-      submitButton.disabled = false;
-    });
-  });
+        phoneMask.on('complete', () => {
+          submitButton.disabled = false;
+        });
+      });
+    }
+  }
 }
 
 function maskPhoneInput() {

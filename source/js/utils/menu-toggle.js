@@ -17,7 +17,8 @@ function toggleMenu(dataList) {
   dataList.forEach((item) => {
     item.classList.remove('nojs');
     let toggleButton = item.querySelector('[data-toggle]');
-    toggleButton.addEventListener('click', (evt) => {
+    let toggleWrap = item.querySelector('[data-toggle-wrap]');
+    toggleWrap.addEventListener('click', (evt) => {
       evt.preventDefault();
       if (toggleButton.classList.contains('is-closed')) {
         checkAndCloseItems(dataList);
