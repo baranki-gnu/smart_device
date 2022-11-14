@@ -31,14 +31,11 @@
 
 .user-navigation__item--callback {
   max-width: 232px;
+  margin-top: 5px;
   grid-column: 3/4;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
-}
-
-.user-navigation__item--callback {
-  margin-top: 5px;
 }
 
 .user-navigation__item a {
@@ -114,6 +111,7 @@
   .user-navigation__list {
     margin-right: 10px;
   }
+
   .user-navigation__item {
     margin-top: 0;
   }

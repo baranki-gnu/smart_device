@@ -49,13 +49,13 @@
 }
 
 .production-services__item {
-  width: calc((100% - 170px)/3);
+  width: calc((100% - 170px) / 3);
   display: flex;
   position: relative;
   z-index: 5;
 }
 
-.production-services__list>li {
+.production-services__list > li {
   background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
     url("../img/background/main-background-desktop@1x.jpg") 17% 95%/auto 110% no-repeat,
     linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
@@ -161,7 +161,7 @@
     display: block;
   }
 
-  .production-services__list>li {
+  .production-services__list > li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
       url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat,
       linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
@@ -215,7 +215,7 @@
     height: 40px;
   }
 
-  .production-services__list>li {
+  .production-services__list > li {
     background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat,
       url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat,
       linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
