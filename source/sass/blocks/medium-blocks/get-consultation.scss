@@ -25,7 +25,7 @@
   padding-left: 50px;
 }
 
-.get-consultation__title {
+.get-consultation h2 {
   margin: 0;
   margin-bottom: 32px;
   font-size: 80px;
@@ -36,7 +36,7 @@
   text-transform: uppercase;
 }
 
-.get-consultation__description {
+.get-consultation p {
   max-width: 685px;
   margin: 0;
   margin-bottom: 47px;
@@ -48,7 +48,7 @@
   text-align: left;
 }
 
-.get-consultation__link {
+.get-consultation a {
   margin-left: 2px;
   padding: 16px 27px;
   color: $color-alice-blue;
@@ -57,6 +57,11 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   background-color: $color-deep-sky-blue;
+}
+
+.get-consultation a:hover {
+  color: $color-deep-sky-blue;
+  background-color: $color-alice-blue;
 }
 
 .get-consultation__link-text-short {
@@ -83,13 +88,13 @@
     padding-right: 50px;
   }
 
-  .get-consultation__title {
+  .get-consultation h2 {
     margin-bottom: 2px;
     font-size: 64px;
     line-height: 75px;
   }
 
-  .get-consultation__description {
+  .get-consultation p {
     max-width: 923px;
     margin-bottom: 55px;
   }

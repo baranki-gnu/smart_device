@@ -41,11 +41,17 @@
   font-weight: 400;
   line-height: 21px;
   color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.site-tree__item a:hover {
+  color: rgba(0, 178, 255, 0.7);
 }
 
 @media (max-width: 1150px) {
   .site-tree__list {
     min-width: auto;
+    height: auto;
     padding-right: 10px;
     gap: 7px 10px;
   }

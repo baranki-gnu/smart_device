@@ -8,7 +8,8 @@
   font-weight: 400;
   line-height: 18px;
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
-  z-index: 5;
+  z-index: 35;
+  position: fixed;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {

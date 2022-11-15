@@ -27,7 +27,25 @@
 }
 
 .consent-checkbox-wrap input:checked + span {
-  background-image: url("../../../img/svg/tick.svg");
+  background-image: url("../img/svg/tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.consent-checkbox-wrap label,
+.consent-checkbox-wrap span,
+.consent-checkbox-wrap input {
+  cursor: pointer;
+}
+
+.consent-checkbox-wrap:hover b {
+  color: $color-black-pearl-button;
+}
+
+.consent-checkbox-wrap:hover span {
+  border-color: $color-black-pearl-button;
+}
+
+.consent-checkbox-wrap:hover input:checked + span {
+  background-image: url("../img/svg/tick-black.svg");
 }

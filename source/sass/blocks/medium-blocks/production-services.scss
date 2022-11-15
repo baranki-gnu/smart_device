@@ -110,6 +110,10 @@
   z-index: 3;
 }
 
+.production-services__item:hover h3 {
+  color: $color-deep-sky-blue;
+}
+
 .production-services__item span::after {
   width: 6px;
   height: 6px;

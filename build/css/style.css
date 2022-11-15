@@ -711,6 +711,7 @@ button,
 }
 
 .page body {
+  height: 100%;
   font-family: "PT Mono", monospace, "Courier New";
   font-size: 16px;
   line-height: 23px;
@@ -742,7 +743,8 @@ button,
   background: -webkit-gradient(linear, left top, left bottom, color-stop(84.9%, #041827), to(rgba(4, 24, 39, 0)));
   background: -o-linear-gradient(top, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
-  z-index: 5;
+  z-index: 35;
+  position: fixed;
 }
 
 @media (max-width: 1023px) {
@@ -783,6 +785,10 @@ button,
     grid-template-columns: 35px auto;
   }
   .navigation__logo-link img {
+    width: 35px;
+    height: 35px;
+  }
+  .navigation__logo-link picture {
     width: 35px;
     height: 35px;
   }
@@ -850,6 +856,10 @@ button,
   text-align: left;
 }
 
+.user-navigation__item a:hover {
+  color: #00b2ff;
+}
+
 .user-navigation__item svg {
   margin-right: 15px;
 }
@@ -867,6 +877,11 @@ button,
   border: 1px solid #f2f5f6;
   border-radius: 3px;
   background-color: transparent;
+}
+
+.user-navigation__item button:hover {
+  color: #00b2ff;
+  border-color: #00b2ff;
 }
 
 @media (max-width: 1023px) {
@@ -924,6 +939,7 @@ button,
 }
 
 .main-footer {
+  margin: 0;
   padding-top: 50px;
   padding-bottom: 28px;
   color: #ffffff;
@@ -1139,11 +1155,17 @@ button,
   font-weight: 400;
   line-height: 21px;
   color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.site-tree__item a:hover {
+  color: rgba(0, 178, 255, 0.7);
 }
 
 @media (max-width: 1150px) {
   .site-tree__list {
     min-width: auto;
+    height: auto;
     padding-right: 10px;
     gap: 7px 10px;
   }
@@ -1268,6 +1290,14 @@ button,
   color: rgba(255, 255, 255, 0.7);
 }
 
+.contacts__item a {
+  cursor: pointer;
+}
+
+.contacts__item a:hover {
+  color: rgba(0, 178, 255, 0.7);
+}
+
 .contacts span {
   margin-bottom: 10px;
   display: inline-block;
@@ -1390,7 +1420,7 @@ button,
   padding-left: 50px;
 }
 
-.get-consultation__title {
+.get-consultation h2 {
   margin: 0;
   margin-bottom: 32px;
   font-size: 80px;
@@ -1401,7 +1431,7 @@ button,
   text-transform: uppercase;
 }
 
-.get-consultation__description {
+.get-consultation p {
   max-width: 685px;
   margin: 0;
   margin-bottom: 47px;
@@ -1413,7 +1443,7 @@ button,
   text-align: left;
 }
 
-.get-consultation__link {
+.get-consultation a {
   margin-left: 2px;
   padding: 16px 27px;
   color: #f2f5f6;
@@ -1422,6 +1452,11 @@ button,
   font-weight: 700;
   letter-spacing: 0.05em;
   background-color: #00b2ff;
+}
+
+.get-consultation a:hover {
+  color: #00b2ff;
+  background-color: #f2f5f6;
 }
 
 .get-consultation__link-text-short {
@@ -1453,14 +1488,14 @@ button,
   }
 }
 @media (max-width: 1023px) {
-  .get-consultation__title {
+  .get-consultation h2 {
     margin-bottom: 2px;
     font-size: 64px;
     line-height: 75px;
   }
 }
 @media (max-width: 1023px) {
-  .get-consultation__description {
+  .get-consultation p {
     max-width: 923px;
     margin-bottom: 55px;
   }
@@ -1598,7 +1633,6 @@ button,
     width: 100%;
   }
   .advantages__item {
-    width: calc((100% - 29px) / 2);
     min-width: 320px;
     max-width: 461px;
     padding-bottom: 32px;
@@ -1702,6 +1736,11 @@ button,
   border: 1px solid #00b2ff;
   content: "";
   position: absolute;
+}
+
+.company-info button:hover {
+  background-color: #00b2ff;
+  color: #f2f5f6;
 }
 
 .company-info__button.show-more .company-info__button-more,
@@ -1924,6 +1963,10 @@ button,
   border-radius: 3px 0 0 0;
   cursor: pointer;
   z-index: 3;
+}
+
+.production-services__item:hover h3 {
+  color: #00b2ff;
 }
 
 .production-services__item span::after {
@@ -2151,6 +2194,11 @@ button,
       -ms-flex-order: 1;
           order: 1;
   cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #ebebeb;
+  color: #00b2ff;
 }
 
 .form button.is-inactive {
@@ -2454,6 +2502,7 @@ button,
   background-color: rgba(4, 20, 39, 0.15);
   border-width: 0;
   border-radius: 3px;
+  cursor: text;
 }
 
 .input-textarea-wrap textarea {
@@ -2535,9 +2584,27 @@ button,
 }
 
 .consent-checkbox-wrap input:checked + span {
-  background-image: url("../../../img/svg/tick.svg");
+  background-image: url("../img/svg/tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.consent-checkbox-wrap label,
+.consent-checkbox-wrap span,
+.consent-checkbox-wrap input {
+  cursor: pointer;
+}
+
+.consent-checkbox-wrap:hover b {
+  color: #041427;
+}
+
+.consent-checkbox-wrap:hover span {
+  border-color: #041427;
+}
+
+.consent-checkbox-wrap:hover input:checked + span {
+  background-image: url("../img/svg/tick-black.svg");
 }
 
 .logo-link {

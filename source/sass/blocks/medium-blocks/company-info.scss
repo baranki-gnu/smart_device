@@ -52,6 +52,11 @@
   position: absolute;
 }
 
+.company-info button:hover {
+  background-color: $color-deep-sky-blue;
+  color: $color-alice-blue;
+}
+
 .company-info__button.show-more .company-info__button-more,
 .company-info__button.show-less .company-info__button-less {
   display: inline-block;
