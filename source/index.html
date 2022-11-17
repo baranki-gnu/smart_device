@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
+<body data-body>
   <div class="wrapper">
     <!--Header-->
     <header class="page__header main-header">
@@ -189,7 +189,7 @@
               <p class="feedback__promo-text">Мы&nbsp;проконсультируем Вас бесплатно</p>
             </div>
             <form class="feedback__form form" action="https://echo.htmlacademy.ru" method="post">
-              <div class="form__name-field input-textarea-wrap">
+              <div class="form__name-field input-textarea-wrap" data-name-input>
                 <label class="form__name-field-label">
                   <span class="visually-hidden">Введите имя</span>
                   <input type="text" placeholder="Имя" required>
@@ -201,7 +201,7 @@
                   <input type="text" placeholder="Телефон" required>
                 </label>
               </div>
-              <div class="form__question-textarea input-textarea-wrap">
+              <div class="form__question-textarea input-textarea-wrap" data-textarea>
                 <label class="form__question-textarea-label">
                   <span class="visually-hidden">Введите Ваш вопрос</span>
                   <textarea placeholder="Ваш вопрос"></textarea>
@@ -209,12 +209,12 @@
               </div>
               <div class="form__consent-checkbox consent-checkbox-wrap">
                 <label class="form__consent-checkbox-label">
-                  <input type="checkbox" name="consent" tabindex="0" checked required>
+                  <input type="checkbox" name="consent" checked required>
                   <span></span>
                   <b>Я&nbsp;согласен на&nbsp;обработку персональных данных</b>
                 </label>
               </div>
-              <button type="submit" tabindex="0" data-button-submit>Задать вопрос</button>
+              <button type="submit"data-button-submit>Задать вопрос</button>
               <!--Классы для активации/дизактивации кнопки .is-active/.is-inactive-->
             </form>
           </div>
@@ -316,13 +316,13 @@
   <!-- Модалка -->
   <div class="modal-window is-closed" data-modal="feedback-call">
     <!--Классы открытия/закрытия .is-open/.is-closed -->
-    <div class="modal-window__wrapper">
+    <div class="modal-window__wrapper" data-modal-wrapper>
       <h2 class="modal-window__title title">Закажите звонок</h2>
       <p class="modal-window__description">
         Оставьте контакты, мы&nbsp;проконсультируем вас бесплатно в&nbsp;удобное время
       </p>
-      <form class="modal-window__form form-modal" action="https://echo.htmlacademy.ru" method="post">
-        <div class="form-modal__name input-textarea-wrap">
+      <form class="modal-window__form form-modal" action="https://echo.htmlacademy.ru" method="post" data-form-modal>
+        <div class="form-modal__name input-textarea-wrap" data-name-input>
           <label class="form-modal__name-label">
             <span class="visually-hidden">Введите имя</span>
             <input type="text" placeholder="Имя" required>
@@ -334,7 +334,7 @@
             <input type="text" placeholder="Телефон" required>
           </label>
         </div>
-        <div class="form-modal__question input-textarea-wrap">
+        <div class="form-modal__question input-textarea-wrap" data-textarea>
           <label class="form-modal__question-label">
             <span class="visually-hidden">Введите Ваш вопрос</span>
             <textarea placeholder="Ваш вопрос"></textarea>

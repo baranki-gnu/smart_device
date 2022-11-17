@@ -1,10 +1,11 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {toggleMenu, dataItems} from './utils/menu-toggle';
-import {openModal, closeModal} from './modules/modals/modal-window';
+import {callModalFunctions} from './modules/modals/modal-window';
 import {scrollToForm} from './utils/scroll-to-form';
 import {showMoreLess} from './utils/show-more-less';
 import {maskPhoneInput} from './utils/telephone-mask';
+import {startStoringData} from './utils/form-general';
 
 // ---------------------------------
 
@@ -16,14 +17,14 @@ window.addEventListener('DOMContentLoaded', () => {
   scrollToForm();
   showMoreLess();
   maskPhoneInput();
+  startStoringData();
 
 
   iosVhFix();
 
   // Modules
   // ---------------------------------
-  openModal();
-  closeModal();
+  callModalFunctions();
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
   // в load следует добавить скрипты, не участвующие в работе первого экрана

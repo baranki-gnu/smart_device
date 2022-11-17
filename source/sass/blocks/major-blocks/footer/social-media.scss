@@ -9,6 +9,14 @@
   margin-right: 25px;
 }
 
+.social-media__item svg {
+  fill: $color-alice-blue-background;
+}
+
+.social-media__item:hover svg {
+  fill: $color-deep-sky-blue;
+}
+
 @media (max-width: ($vp-1024 - 1px)) {
   .social-media__list {
     padding-top: 10px;
