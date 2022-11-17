@@ -1402,7 +1402,6 @@ button,
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin-top: -120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1474,8 +1473,6 @@ button,
 @media (max-width: 1023px) {
   .get-consultation {
     min-height: 640px;
-    margin-top: -100px;
-    padding-top: 60px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
     background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
@@ -1490,7 +1487,7 @@ button,
 }
 @media (max-width: 1023px) {
   .get-consultation__wrap {
-    margin-top: 120px;
+    margin-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -1516,13 +1513,12 @@ button,
 @media (max-width: 767px) {
   .get-consultation {
     min-height: 560px;
-    margin-top: -70px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
     background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
   }
   .get-consultation__wrap {
-    margin-top: 90px;
+    margin-top: 150px;
     padding-left: 25px;
     padding-right: 25px;
   }

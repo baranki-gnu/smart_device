@@ -1,8 +1,6 @@
 let openModalButton = document.querySelector('[data-open-modal]');
 let closeModalButton = document.querySelector('[data-close-modal]');
-let modalWindow = document.querySelector('[data-modal]');
-let modalInnerWrap = document.querySelector('[data-modal-wrapper]');
-let inputName = modalWindow.querySelector('[data-name-input] input');
+let modalOverlay = document.querySelector('[data-modal="feedback-call"]');
 let bodyBlock = document.querySelector('[data-body]');
 
 function lockScroll() {
@@ -17,14 +15,17 @@ function unlockScroll() {
   }
 }
 
-const isEscapeKey = (evt) => evt.key === 'Escape';
+const isEscapeKey = (evt) => {
+  return evt.key === 'Escape';
+};
 
 
 function openModal() {
-  if (modalWindow) {
-    modalWindow.classList.remove('is-closed');
-    modalWindow.classList.add('is-open');
+  if (modalOverlay) {
+    modalOverlay.classList.remove('is-closed');
+    modalOverlay.classList.add('is-open');
     lockScroll();
+    let inputName = modalOverlay.querySelector('[data-name-input] input');
     if (inputName) {
       inputName.focus();
     }
@@ -33,9 +34,9 @@ function openModal() {
 }
 
 function closeModal() {
-  if (modalWindow && modalWindow.classList.contains('is-open')) {
-    modalWindow.classList.remove('is-open');
-    modalWindow.classList.add('is-closed');
+  if (modalOverlay && modalOverlay.classList.contains('is-open')) {
+    modalOverlay.classList.remove('is-open');
+    modalOverlay.classList.add('is-closed');
     unlockScroll();
     document.removeEventListener('keydown', onModalEscKeydown);
   }
@@ -49,14 +50,13 @@ function onModalEscKeydown(evt) {
 }
 
 function onOpenButtonClick() {
-  if (modalWindow && openModalButton) {
+  if (modalOverlay && openModalButton) {
     openModalButton.addEventListener('click', (evt) => {
       evt.preventDefault();
       openModal();
     });
   }
 }
-
 
 function onCloseButtonClick() {
   if (closeModalButton) {
@@ -65,22 +65,26 @@ function onCloseButtonClick() {
 }
 
 function onOutModalClick() {
-  window.addEventListener('click', (evt) => {
-    evt.preventDefault();
-    if (modalWindow && modalWindow.classList.contains('is-open')) {
-      if (evt.target !== modalInnerWrap) {
+  if (modalOverlay) {
+    modalOverlay.addEventListener('click', (evt) => {
+      if (evt.target === modalOverlay) {
         closeModal();
       }
-    }
-  });
+    });
+  }
+
+  if (closeModalButton) {
+    closeModalButton.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      closeModal();
+    });
+  }
 }
 
 function callModalFunctions() {
   onOpenButtonClick();
   onCloseButtonClick();
-  onModalEscKeydown();
   onOutModalClick();
 }
-
 
 export {callModalFunctions};
