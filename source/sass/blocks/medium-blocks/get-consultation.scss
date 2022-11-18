@@ -7,10 +7,22 @@
     url("../img/background/main-background-desktop@1x.jpg") top center/cover no-repeat,
     linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
 
+  @supports (background: url("../img/background/main-background-desktop@1x.webp")) {
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+      url("../img/background/main-background-desktop@1x.webp") top center/cover no-repeat,
+      linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+  }
+
   @media (min-resolution: 2dppx) {
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
       url("../img/background/main-background-desktop@2x.jpg") top center/cover no-repeat,
       linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+
+    @supports (background: url("../img/background/main-background-desktop@2x.webp")) {
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+        url("../img/background/main-background-desktop@2x.webp") top center/cover no-repeat,
+        linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+    }
   }
 }
 
@@ -71,11 +83,25 @@
   .get-consultation {
     min-height: 640px;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-      url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat;
+      url("../img/background/main-background-tablet@1x.jpg") 20% 50%/180% no-repeat,
+      linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+
+    @supports (background: url("../img/background/main-background-tablet@1x.webp")) {
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+        url("../img/background/main-background-tablet@1x.webp") 20% 50%/180% no-repeat,
+        linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+    }
 
     @media (min-resolution: 2dppx) {
       background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-        url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat;
+        url("../img/background/main-background-tablet@2x.jpg") 20% 50%/180% no-repeat,
+        linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+
+      @supports (background: url("../img/background/main-background-tablet@2x.webp")) {
+        background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+          url("../img/background/main-background-tablet@2x.webp") 20% 50%/180% no-repeat,
+          linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+      }
     }
   }
 
@@ -105,7 +131,26 @@
   .get-consultation {
     min-height: 560px;
     background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
-      url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat;
+      url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat,
+      linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+
+    @supports (background: url("../img/background/main-background-tablet@1x.webp")) {
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+        url("../img/background/main-background-tablet@1x.webp") 26% 50%/400% no-repeat,
+        linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+    }
+
+    @media (min-resolution: 2dppx) {
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+        url("../img/background/main-background-tablet@2x.jpg") 26% 50%/400% no-repeat,
+        linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+
+      @supports (background: url("../img/background/main-background-tablet@2x.webp")) {
+        background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat,
+          url("../img/background/main-background-tablet@2x.webp") 26% 50%/400% no-repeat,
+          linear-gradient(180deg, rgba(4, 24, 39, 1) 100%, rgba(4, 24, 39, 1) 100%) center/cover no-repeat;
+      }
+    }
   }
 
   .get-consultation__wrap {

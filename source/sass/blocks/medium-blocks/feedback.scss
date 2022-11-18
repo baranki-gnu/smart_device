@@ -5,10 +5,22 @@
     url("../img/svg/polygon-background.svg") top left/contain no-repeat,
     linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
 
+  @supports (background: url("../img/background/paper_airplane_desktop@1x.webp")) {
+    background: url("../img/background/paper_airplane_desktop@1x.webp") 24% 44%/510px 285px no-repeat,
+      url("../img/svg/polygon-background.svg") top left/contain no-repeat,
+      linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
+  }
+
   @media (max-width: ($vp-1024 - 1px)) {
     background: url("../img/background/paper_airplane_desktop@2x.png") 24% 44%/510px 285px no-repeat,
       url("../img/svg/polygon-background.svg") top left/contain no-repeat,
       linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
+
+    @supports (background: url("../img/background/paper_airplane_desktop@2x.webp")) {
+      background: url("../img/background/paper_airplane_desktop@2x.webp") 24% 44%/510px 285px no-repeat,
+        url("../img/svg/polygon-background.svg") top left/contain no-repeat,
+        linear-gradient(to top, $color-deep-sky-blue-bg, $color-deep-sky-blue-bg) center/cover no-repeat;
+    }
   }
 }
 
