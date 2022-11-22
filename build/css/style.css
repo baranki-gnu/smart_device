@@ -2127,39 +2127,39 @@ button,
     display: block;
   }
   .production-services__list > li {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 85%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 85%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 85%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 85%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list > li {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 85%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 85%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 85%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 85%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 85%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 85%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
   .production-services__list li:nth-child(2n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 76% 55%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 76% 55%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 76% 55%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 76% 55%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list li:nth-child(2n) {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 76% 55%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 76% 55%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 76% 55%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 76% 55%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 76% 55%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 76% 55%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
   .production-services__list li:nth-child(3n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 18% 60%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 18% 60%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 18% 60%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 18% 60%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list li:nth-child(3n) {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 18% 60%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 18% 60%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 18% 60%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 18% 60%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 18% 60%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 18% 60%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
   .production-services__item span::after {
@@ -2193,39 +2193,39 @@ button,
     height: 40px;
   }
   .production-services__list > li {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 52%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 52%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 52%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 52%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list > li {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 52%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 52%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 52%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 52%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 52%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 52%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
   .production-services__list li:nth-child(2n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 30% 83%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 83%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 83%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 30% 83%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list li:nth-child(2n) {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 83%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 83%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 30% 83%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 83%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 83%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 30% 83%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
   .production-services__list li:nth-child(3n) {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.jpg") 73% 64%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 73% 64%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 73% 64%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.jpg") 73% 64%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/poduct-services-bg.webp")) {
+  @supports (background: url("../img/background/product-services-bg.webp")) {
     .production-services__list li:nth-child(3n) {
-      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 73% 64%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 73% 64%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/poduct-services-bg.webp") 73% 64%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 24, 39, 0.5)), to(rgba(4, 24, 39, 0.5))) center/cover no-repeat, url("../img/background/product-services-bg.webp") 73% 64%/auto 400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(bottom, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 73% 64%/auto 400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(to top, rgba(4, 24, 39, 0.5), rgba(4, 24, 39, 0.5)) center/cover no-repeat, url("../img/background/product-services-bg.webp") 73% 64%/auto 400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
 }
@@ -2646,10 +2646,10 @@ button,
     cursor: pointer;
   }
   .toggle__button.is-closed {
-    background: url("../../../img/svg/plus.svg") center/contain no-repeat;
+    background: url("../img/svg/plus.svg") center/contain no-repeat;
   }
   .toggle__button.is-open {
-    background: url("../../../img/svg/minus.svg") center/contain no-repeat;
+    background: url("../img/svg/minus.svg") center/contain no-repeat;
   }
 }
 .input-textarea-wrap input,
