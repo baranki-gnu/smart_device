@@ -1,3 +1,7 @@
+.input-textarea-wrap {
+  position: relative;
+}
+
 .input-textarea-wrap input,
 .input-textarea-wrap textarea {
   padding: 15px;
@@ -24,6 +28,29 @@
   font-weight: 400;
   line-height: 22px;
   color: $color-default-white;
+}
+
+.input-textarea-wrap input:hover,
+.input-textarea-wrap textarea:hover {
+  outline: 1px solid $color-black-pearl-button;
+}
+
+
+.input-textarea-wrap em {
+  display: none;
+}
+
+.input-textarea-wrap .input-textarea-wrap__show-tip {
+  display: block;
+  position: absolute;
+  top: 53px;
+  left: 5px;
+  z-index: 5;
+  font-family: $family-mono;
+  font-size: 12px;
+  line-height: 14px;
+  font-style: normal;
+  color: $color-scarlett;
 }
 
 @media (max-width: ($vp-1024 - 1px)) {

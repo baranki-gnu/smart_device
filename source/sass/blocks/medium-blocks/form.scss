@@ -15,7 +15,7 @@
 }
 
 .form button {
-  margin-right: 45px;
+  margin-right: 48px;
   padding: 14px 70px;
   font-family: $family-roboto;
   font-size: 16px;
@@ -55,12 +55,12 @@
 
 .form__consent-checkbox {
   width: 260px;
-  padding-top: 15px;
+  margin-top: 15px;
   order: 2;
 }
 
 .form__consent-checkbox span {
-  top: 22px;
+  top: 9px;
   left: 0;
 }
 
@@ -98,6 +98,7 @@
   }
 
   .form__consent-checkbox {
+    margin-top: 0;
     padding-top: 11px;
   }
 

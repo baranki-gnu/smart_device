@@ -4,7 +4,8 @@ import {toggleMenu, dataItems} from './utils/menu-toggle';
 import {callModalFunctions} from './modules/modals/modal-window';
 import {scrollToForm} from './utils/scroll-to-form';
 import {showMoreLess} from './utils/show-more-less';
-import {maskPhoneInput} from './utils/telephone-mask';
+import {feedbackForm, feedbackMask, modalForm, modalMask} from './utils/telephone-mask';
+import {enableSubmit} from './utils/form-validation';
 import {startStoringData} from './utils/form-general';
 
 // ---------------------------------
@@ -16,8 +17,9 @@ window.addEventListener('DOMContentLoaded', () => {
   toggleMenu(dataItems);
   scrollToForm();
   showMoreLess();
-  maskPhoneInput();
   startStoringData();
+  enableSubmit(feedbackForm, feedbackMask);
+  //enableSubmit(modalForm, modalMask);
 
 
   iosVhFix();
@@ -25,6 +27,8 @@ window.addEventListener('DOMContentLoaded', () => {
   // Modules
   // ---------------------------------
   callModalFunctions();
+  //turnMaskOn();
+
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
   // в load следует добавить скрипты, не участвующие в работе первого экрана

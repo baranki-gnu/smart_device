@@ -1,3 +1,5 @@
+import {trapModalFocus} from '../../utils/modal-focus-trap';
+
 let openModalButton = document.querySelector('[data-open-modal]');
 let closeModalButton = document.querySelector('[data-close-modal]');
 let modalOverlay = document.querySelector('[data-modal="feedback-call"]');
@@ -29,6 +31,7 @@ function openModal() {
     if (inputName) {
       inputName.focus();
     }
+    trapModalFocus(modalOverlay);
     document.addEventListener('keydown', onModalEscKeydown);
   }
 }
@@ -38,6 +41,7 @@ function closeModal() {
     modalOverlay.classList.remove('is-open');
     modalOverlay.classList.add('is-closed');
     unlockScroll();
+    trapModalFocus(modalOverlay).onClose();
     document.removeEventListener('keydown', onModalEscKeydown);
   }
 }
