@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
   showMoreLess();
   startStoringData();
   enableSubmit(feedbackForm, feedbackMask);
-  //enableSubmit(modalForm, modalMask);
+  enableSubmit(modalForm, modalMask);
 
 
   iosVhFix();
@@ -27,7 +27,6 @@ window.addEventListener('DOMContentLoaded', () => {
   // Modules
   // ---------------------------------
   callModalFunctions();
-  //turnMaskOn();
 
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

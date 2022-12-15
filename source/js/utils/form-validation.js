@@ -1,13 +1,13 @@
-function validateTelephone(formBlock, phoneMask) {
+function validateTel(formBlock) {
   let inputField = formBlock.querySelector('[data-telephone-input] input');
-  inputField.addEventListener('input', (evt) => {
-    evt.preventDefault();
-    phoneMask.on('complete', () => {
-      console.log('валидация телефона прошла');
+
+  if (inputField) {
+    if (inputField.value && inputField.value.length === 16) {
       return true;
-    });
-  });
-  console.log('валидация телефона не прошла');
+    } else {
+      return false;
+    }
+  }
   return false;
 }
 
@@ -25,39 +25,33 @@ function validateName(formBlock) {
 function enableSubmit(formBlock, phoneMask) {
   if (formBlock) {
     let submitButton = formBlock.querySelector('[data-send-button]');
-    //let validationTips = formBlock.querySelectorAll('em');
     let nameValidationTip = formBlock.querySelector('[data-name-warning]');
     let telephoneValidationTip = formBlock.querySelector('[data-telephone-warning]');
     submitButton.addEventListener('click', () => {
-      console.log('попытка отправить форму');
-      //validationTips.forEach(function (tip) {
-      //  tip.classList.toggle('input-textarea-wrap__show-tip');
-      //});
-      nameValidationTip.classList.toggle('input-textarea-wrap__show-tip');
-      telephoneValidationTip.classList.toggle('input-textarea-wrap__show-tip');
+      phoneMask.updateValue();
       let checkName = validateName(formBlock);
-      let checkTelephone = false;
+      let checkTelephone = validateTel(formBlock, phoneMask);
 
-      checkTelephone = phoneMask.on('complete', () => {
-        console.log('маска завершена');
-        return true;
-      });
       if (checkName && checkTelephone) {
-        nameValidationTip.classList.toggle('input-textarea-wrap__show-tip');
-        telephoneValidationTip.classList.toggle('input-textarea-wrap__show-tip');
-        console.log('первый вариант');
-        //validationTips.classList.toggle('input-textarea-wrap__show-tip');
-        //HTMLFormElement.prototype.submit.call(formBlock);
-        //evt.currentTarget.submit();
-        //formBlock.submit();
+
+        nameValidationTip.classList.remove('input-textarea-wrap__show-tip');
+        telephoneValidationTip.classList.remove('input-textarea-wrap__show-tip');
+
+      } else if (!checkName && !checkTelephone) {
+
+        nameValidationTip.classList.add('input-textarea-wrap__show-tip');
+        telephoneValidationTip.classList.add('input-textarea-wrap__show-tip');
+
       } else if (checkName && !checkTelephone) {
-        nameValidationTip.classList.toggle('input-textarea-wrap__show-tip');
-        console.log('второй вариант');
+
+        nameValidationTip.classList.remove('input-textarea-wrap__show-tip');
+        telephoneValidationTip.classList.add('input-textarea-wrap__show-tip');
+
       } else if (!checkName && checkTelephone) {
-        telephoneValidationTip.classList.toggle('input-textarea-wrap__show-tip');
-        console.log(checkName);
-        console.log(checkTelephone);
-        console.log('третий вариант');
+
+        nameValidationTip.classList.add('input-textarea-wrap__show-tip');
+        telephoneValidationTip.classList.remove('input-textarea-wrap__show-tip');
+
       }
     });
   }

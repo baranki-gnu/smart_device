@@ -334,13 +334,15 @@
         <div class="form-modal__name input-textarea-wrap" data-name-input>
           <label class="form-modal__name-label">
             <span class="visually-hidden">Введите имя</span>
-            <input type="text" placeholder="Имя" required>
+            <input type="text" placeholder="Имя" name="clients name" required>
+            <em data-name-warning>Введите имя</em><!--Класс для включения видимости .input-textarea-wrap__show-tip-->
           </label>
         </div>
         <div class="form-modal__telephone input-textarea-wrap" data-telephone-input>
           <label class="form-modal__telephone-label">
             <span class="visually-hidden">Введите телефон</span>
-            <input type="text" inputmode="tel" placeholder="Телефон" minlength="16" required>
+            <input type="text" inputmode="tel" placeholder="Телефон" name="clients-telephone" minlength="16" required>
+            <em data-telephone-warning>Введите 10-значный номер телефона</em><!--Класс для включения видимости .input-textarea-wrap__show-tip-->
           </label>
         </div>
         <div class="form-modal__question input-textarea-wrap" data-textarea>

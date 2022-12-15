@@ -17,11 +17,6 @@ function createMask(formBlock) {
   return null;
 }
 
-//function turnMaskOn() {
-//  createMask(modalForm);
-//  createMask(feedbackForm);
-//}
-
 let feedbackMask = createMask(feedbackForm);
 let modalMask = createMask(modalForm);
 
