@@ -1587,29 +1587,29 @@ button,
 @media (max-width: 767px) {
   .get-consultation {
     min-height: 560px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.jpg") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-mobile@1x.jpg") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@1x.jpg") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@1x.jpg") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/main-background-tablet@1x.webp")) {
+  @supports (background: url("../img/background/main-background-mobile@1x.webp")) {
     .get-consultation {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@1x.webp") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.webp") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@1x.webp") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-mobile@1x.webp") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@1x.webp") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@1x.webp") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
 }
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and (min-resolution: 2dppx) {
   .get-consultation {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.jpg") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-mobile@2x.jpg") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+    background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@2x.jpg") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@2x.jpg") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
   }
-  @supports (background: url("../img/background/main-background-tablet@2x.webp")) {
+  @supports (background: url("../img/background/main-background-mobile@2x.webp")) {
     .get-consultation {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-tablet@2x.webp") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
-      background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.webp") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
-      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-tablet@2x.webp") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(71.72%, rgba(25, 32, 36, 0.7)), to(rgba(25, 32, 36, 0))) center/cover no-repeat, url("../img/background/main-background-mobile@2x.webp") 26% 50%/400% no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgb(4, 24, 39)), to(rgb(4, 24, 39))) center/cover no-repeat;
+      background: -o-linear-gradient(top, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@2x.webp") 26% 50%/400% no-repeat, -o-linear-gradient(top, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
+      background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%) center/cover no-repeat, url("../img/background/main-background-mobile@2x.webp") 26% 50%/400% no-repeat, linear-gradient(180deg, rgb(4, 24, 39) 100%, rgb(4, 24, 39) 100%) center/cover no-repeat;
     }
   }
 }
