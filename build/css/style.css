@@ -2021,13 +2021,6 @@ button,
   display: none;
 }
 
-/*.production-services__item:not(:last-child) {
-  margin-right: 85px;
-}
-
-.production-services__item:nth-child(3n) {
-  margin-right: 0;
-}*/
 .production-services__item {
   width: calc((100% - 170px) / 3);
   height: 650px;
@@ -2883,6 +2876,11 @@ button,
 @media (max-width: 1023px) {
   .input-textarea-wrap textarea {
     padding-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .input-textarea-wrap textarea {
+    padding-top: 24px;
   }
 }
 .consent-checkbox-wrap {

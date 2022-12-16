@@ -58,3 +58,9 @@
     padding-top: 30px;
   }
 }
+
+@media (max-width: ($vp-768 - 1px)) {
+  .input-textarea-wrap textarea {
+    padding-top: 24px;
+  }
+}

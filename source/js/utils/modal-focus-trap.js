@@ -38,7 +38,7 @@ function trapModalFocus(item, previousFocusItem = document.activeElement) {
     };
   }
 
-  return;
+  return null;
 }
 
 export {trapModalFocus};
